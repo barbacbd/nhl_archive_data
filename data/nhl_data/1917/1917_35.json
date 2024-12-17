@@ -1,0 +1,259 @@
+{
+    "copyright": "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. \u00a9 NHL 2023. All Rights Reserved.",
+    "gamePk": 1917020035,
+    "link": "/api/v1/game/1917020035/feed/live",
+    "metaData": {
+        "wait": 10,
+        "timeStamp": "20180730_170829"
+    },
+    "gameData": {
+        "game": {
+            "pk": 1917020035,
+            "season": "19171918",
+            "type": "R"
+        },
+        "datetime": {
+            "dateTime": "1918-01-03T01:00:00Z"
+        },
+        "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "7",
+            "detailedState": "Final",
+            "statusCode": "7",
+            "startTimeTBD": false
+        },
+        "teams": {
+            "away": {
+                "id": 41,
+                "name": "Montreal Wanderers",
+                "link": "/api/v1/teams/41",
+                "abbreviation": "MWN",
+                "triCode": "MWN",
+                "teamName": "Wanderers",
+                "locationName": "Montreal",
+                "firstYearOfPlay": "1917",
+                "division": {
+                    "link": "/api/v1/divisions/null"
+                },
+                "conference": {
+                    "link": "/api/v1/conferences/null"
+                },
+                "franchise": {
+                    "franchiseId": 2,
+                    "teamName": "Wanderers",
+                    "link": "/api/v1/franchises/2"
+                },
+                "shortName": "Montreal",
+                "franchiseId": 2,
+                "active": false
+            },
+            "home": {
+                "id": 8,
+                "name": "Montr\u00e9al Canadiens",
+                "link": "/api/v1/teams/8",
+                "venue": {
+                    "name": "Centre Bell",
+                    "link": "/api/v1/venues/null",
+                    "city": "Montreal",
+                    "timeZone": {
+                        "id": "America/Montreal",
+                        "offset": -4,
+                        "tz": "EDT"
+                    }
+                },
+                "abbreviation": "MTL",
+                "triCode": "MTL",
+                "teamName": "Canadiens",
+                "locationName": "Montr\u00e9al",
+                "firstYearOfPlay": "1917",
+                "division": {
+                    "id": 17,
+                    "name": "Atlantic",
+                    "nameShort": "ATL",
+                    "link": "/api/v1/divisions/17",
+                    "abbreviation": "A"
+                },
+                "conference": {
+                    "id": 6,
+                    "name": "Eastern",
+                    "link": "/api/v1/conferences/6"
+                },
+                "franchise": {
+                    "franchiseId": 1,
+                    "teamName": "Canadiens",
+                    "link": "/api/v1/franchises/1"
+                },
+                "shortName": "Montr\u00e9al",
+                "officialSiteUrl": "http://www.canadiens.com",
+                "franchiseId": 1,
+                "active": true
+            }
+        },
+        "players": {},
+        "venue": {
+            "name": "Laurier Avenue Arena",
+            "link": "/api/v1/venues/null"
+        }
+    },
+    "liveData": {
+        "plays": {
+            "allPlays": [],
+            "scoringPlays": [],
+            "penaltyPlays": [],
+            "playsByPeriod": []
+        },
+        "linescore": {
+            "currentPeriod": 3,
+            "currentPeriodOrdinal": "3rd",
+            "currentPeriodTimeRemaining": "Final",
+            "periods": [
+                {
+                    "periodType": "REGULAR",
+                    "num": 1,
+                    "ordinalNum": "1st",
+                    "home": {
+                        "goals": 0,
+                        "shotsOnGoal": 0,
+                        "rinkSide": "right"
+                    },
+                    "away": {
+                        "goals": 0,
+                        "shotsOnGoal": 0,
+                        "rinkSide": "left"
+                    }
+                },
+                {
+                    "periodType": "REGULAR",
+                    "num": 2,
+                    "ordinalNum": "2nd",
+                    "home": {
+                        "goals": 0,
+                        "shotsOnGoal": 0,
+                        "rinkSide": "left"
+                    },
+                    "away": {
+                        "goals": 0,
+                        "shotsOnGoal": 0,
+                        "rinkSide": "right"
+                    }
+                },
+                {
+                    "periodType": "REGULAR",
+                    "num": 3,
+                    "ordinalNum": "3rd",
+                    "home": {
+                        "goals": 0,
+                        "shotsOnGoal": 0,
+                        "rinkSide": "right"
+                    },
+                    "away": {
+                        "goals": 0,
+                        "shotsOnGoal": 0,
+                        "rinkSide": "left"
+                    }
+                }
+            ],
+            "shootoutInfo": {
+                "away": {
+                    "scores": 0,
+                    "attempts": 0
+                },
+                "home": {
+                    "scores": 0,
+                    "attempts": 0
+                }
+            },
+            "teams": {
+                "home": {
+                    "team": {
+                        "id": 8,
+                        "name": "Montr\u00e9al Canadiens",
+                        "link": "/api/v1/teams/8",
+                        "abbreviation": "MTL",
+                        "triCode": "MTL"
+                    },
+                    "goals": 0,
+                    "shotsOnGoal": 0,
+                    "goaliePulled": false,
+                    "numSkaters": 0,
+                    "powerPlay": false
+                },
+                "away": {
+                    "team": {
+                        "id": 41,
+                        "name": "Montreal Wanderers",
+                        "link": "/api/v1/teams/41",
+                        "abbreviation": "MWN",
+                        "triCode": "MWN"
+                    },
+                    "goals": 0,
+                    "shotsOnGoal": 0,
+                    "goaliePulled": false,
+                    "numSkaters": 0,
+                    "powerPlay": false
+                }
+            },
+            "powerPlayStrength": "Even",
+            "hasShootout": false,
+            "intermissionInfo": {
+                "intermissionTimeRemaining": 0,
+                "intermissionTimeElapsed": 0,
+                "inIntermission": false
+            }
+        },
+        "boxscore": {
+            "teams": {
+                "away": {
+                    "team": {
+                        "id": 41,
+                        "name": "Montreal Wanderers",
+                        "link": "/api/v1/teams/41",
+                        "abbreviation": "MWN",
+                        "triCode": "MWN"
+                    },
+                    "teamStats": {
+                        "teamSkaterStats": {
+                            "goals": 0,
+                            "pim": 0,
+                            "powerPlayGoals": 0.0
+                        }
+                    },
+                    "players": {},
+                    "goalies": [],
+                    "skaters": [],
+                    "onIce": [],
+                    "onIcePlus": [],
+                    "scratches": [],
+                    "penaltyBox": [],
+                    "coaches": []
+                },
+                "home": {
+                    "team": {
+                        "id": 8,
+                        "name": "Montr\u00e9al Canadiens",
+                        "link": "/api/v1/teams/8",
+                        "abbreviation": "MTL",
+                        "triCode": "MTL"
+                    },
+                    "teamStats": {
+                        "teamSkaterStats": {
+                            "goals": 0,
+                            "pim": 0,
+                            "powerPlayGoals": 0.0
+                        }
+                    },
+                    "players": {},
+                    "goalies": [],
+                    "skaters": [],
+                    "onIce": [],
+                    "onIcePlus": [],
+                    "scratches": [],
+                    "penaltyBox": [],
+                    "coaches": []
+                }
+            },
+            "officials": []
+        },
+        "decisions": {}
+    }
+}

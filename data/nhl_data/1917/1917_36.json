@@ -1,0 +1,236 @@
+{
+    "copyright": "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. \u00a9 NHL 2023. All Rights Reserved.",
+    "gamePk": 1917020036,
+    "link": "/api/v1/game/1917020036/feed/live",
+    "metaData": {
+        "wait": 10,
+        "timeStamp": "20180730_170830"
+    },
+    "gameData": {
+        "game": {
+            "pk": 1917020036,
+            "season": "19171918",
+            "type": "R"
+        },
+        "datetime": {
+            "dateTime": "1918-01-06T01:00:00Z"
+        },
+        "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "7",
+            "detailedState": "Final",
+            "statusCode": "7",
+            "startTimeTBD": false
+        },
+        "teams": {
+            "away": {
+                "id": 41,
+                "name": "Montreal Wanderers",
+                "link": "/api/v1/teams/41",
+                "abbreviation": "MWN",
+                "triCode": "MWN",
+                "teamName": "Wanderers",
+                "locationName": "Montreal",
+                "firstYearOfPlay": "1917",
+                "division": {
+                    "link": "/api/v1/divisions/null"
+                },
+                "conference": {
+                    "link": "/api/v1/conferences/null"
+                },
+                "franchise": {
+                    "franchiseId": 2,
+                    "teamName": "Wanderers",
+                    "link": "/api/v1/franchises/2"
+                },
+                "shortName": "Montreal",
+                "franchiseId": 2,
+                "active": false
+            },
+            "home": {
+                "id": 57,
+                "name": "Toronto Arenas",
+                "link": "/api/v1/teams/57",
+                "abbreviation": "TAN",
+                "triCode": "TAN",
+                "teamName": "Arenas",
+                "locationName": "Toronto",
+                "firstYearOfPlay": "1917",
+                "division": {
+                    "link": "/api/v1/divisions/null"
+                },
+                "conference": {
+                    "link": "/api/v1/conferences/null"
+                },
+                "franchise": {
+                    "franchiseId": 5,
+                    "teamName": "Maple Leafs",
+                    "link": "/api/v1/franchises/5"
+                },
+                "shortName": "Toronto",
+                "franchiseId": 5,
+                "active": false
+            }
+        },
+        "players": {},
+        "venue": {
+            "name": "Mutual Street Arena",
+            "link": "/api/v1/venues/null"
+        }
+    },
+    "liveData": {
+        "plays": {
+            "allPlays": [],
+            "scoringPlays": [],
+            "penaltyPlays": [],
+            "playsByPeriod": []
+        },
+        "linescore": {
+            "currentPeriod": 3,
+            "currentPeriodOrdinal": "3rd",
+            "currentPeriodTimeRemaining": "Final",
+            "periods": [
+                {
+                    "periodType": "REGULAR",
+                    "num": 1,
+                    "ordinalNum": "1st",
+                    "home": {
+                        "goals": 0,
+                        "shotsOnGoal": 0
+                    },
+                    "away": {
+                        "goals": 0,
+                        "shotsOnGoal": 0
+                    }
+                },
+                {
+                    "periodType": "REGULAR",
+                    "num": 2,
+                    "ordinalNum": "2nd",
+                    "home": {
+                        "goals": 0,
+                        "shotsOnGoal": 0
+                    },
+                    "away": {
+                        "goals": 0,
+                        "shotsOnGoal": 0
+                    }
+                },
+                {
+                    "periodType": "REGULAR",
+                    "num": 3,
+                    "ordinalNum": "3rd",
+                    "home": {
+                        "goals": 0,
+                        "shotsOnGoal": 0
+                    },
+                    "away": {
+                        "goals": 0,
+                        "shotsOnGoal": 0
+                    }
+                }
+            ],
+            "shootoutInfo": {
+                "away": {
+                    "scores": 0,
+                    "attempts": 0
+                },
+                "home": {
+                    "scores": 0,
+                    "attempts": 0
+                }
+            },
+            "teams": {
+                "home": {
+                    "team": {
+                        "id": 57,
+                        "name": "Toronto Arenas",
+                        "link": "/api/v1/teams/57",
+                        "abbreviation": "TAN",
+                        "triCode": "TAN"
+                    },
+                    "goals": 0,
+                    "shotsOnGoal": 0,
+                    "goaliePulled": false,
+                    "numSkaters": 0,
+                    "powerPlay": false
+                },
+                "away": {
+                    "team": {
+                        "id": 41,
+                        "name": "Montreal Wanderers",
+                        "link": "/api/v1/teams/41",
+                        "abbreviation": "MWN",
+                        "triCode": "MWN"
+                    },
+                    "goals": 0,
+                    "shotsOnGoal": 0,
+                    "goaliePulled": false,
+                    "numSkaters": 0,
+                    "powerPlay": false
+                }
+            },
+            "powerPlayStrength": "Even",
+            "hasShootout": false,
+            "intermissionInfo": {
+                "intermissionTimeRemaining": 0,
+                "intermissionTimeElapsed": 0,
+                "inIntermission": false
+            }
+        },
+        "boxscore": {
+            "teams": {
+                "away": {
+                    "team": {
+                        "id": 41,
+                        "name": "Montreal Wanderers",
+                        "link": "/api/v1/teams/41",
+                        "abbreviation": "MWN",
+                        "triCode": "MWN"
+                    },
+                    "teamStats": {
+                        "teamSkaterStats": {
+                            "goals": 0,
+                            "pim": 0,
+                            "powerPlayGoals": 0.0
+                        }
+                    },
+                    "players": {},
+                    "goalies": [],
+                    "skaters": [],
+                    "onIce": [],
+                    "onIcePlus": [],
+                    "scratches": [],
+                    "penaltyBox": [],
+                    "coaches": []
+                },
+                "home": {
+                    "team": {
+                        "id": 57,
+                        "name": "Toronto Arenas",
+                        "link": "/api/v1/teams/57",
+                        "abbreviation": "TAN",
+                        "triCode": "TAN"
+                    },
+                    "teamStats": {
+                        "teamSkaterStats": {
+                            "goals": 0,
+                            "pim": 0,
+                            "powerPlayGoals": 0.0
+                        }
+                    },
+                    "players": {},
+                    "goalies": [],
+                    "skaters": [],
+                    "onIce": [],
+                    "onIcePlus": [],
+                    "scratches": [],
+                    "penaltyBox": [],
+                    "coaches": []
+                }
+            },
+            "officials": []
+        },
+        "decisions": {}
+    }
+}

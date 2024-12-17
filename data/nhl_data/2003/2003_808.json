@@ -1,0 +1,4074 @@
+{
+    "copyright": "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. \u00a9 NHL 2023. All Rights Reserved.",
+    "gamePk": 2003020808,
+    "link": "/api/v1/game/2003020808/feed/live",
+    "metaData": {
+        "wait": 10,
+        "timeStamp": "20170920_000751"
+    },
+    "gameData": {
+        "game": {
+            "pk": 2003020808,
+            "season": "20032004",
+            "type": "R"
+        },
+        "datetime": {
+            "dateTime": "2004-02-05T00:30:00Z"
+        },
+        "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "7",
+            "detailedState": "Final",
+            "statusCode": "7",
+            "startTimeTBD": false
+        },
+        "teams": {
+            "away": {
+                "id": 30,
+                "name": "Minnesota Wild",
+                "link": "/api/v1/teams/30",
+                "venue": {
+                    "id": 5098,
+                    "name": "Xcel Energy Center",
+                    "link": "/api/v1/venues/5098",
+                    "city": "St. Paul",
+                    "timeZone": {
+                        "id": "America/Chicago",
+                        "offset": -5,
+                        "tz": "CDT"
+                    }
+                },
+                "abbreviation": "MIN",
+                "triCode": "MIN",
+                "teamName": "Wild",
+                "locationName": "Minnesota",
+                "firstYearOfPlay": "2000",
+                "division": {
+                    "id": 5,
+                    "name": "Northwest",
+                    "link": "/api/v1/divisions/5"
+                },
+                "conference": {
+                    "id": 2,
+                    "name": "Western",
+                    "link": "/api/v1/conferences/2"
+                },
+                "franchise": {
+                    "franchiseId": 37,
+                    "teamName": "Wild",
+                    "link": "/api/v1/franchises/37"
+                },
+                "shortName": "Minnesota",
+                "officialSiteUrl": "http://www.wild.com",
+                "franchiseId": 37,
+                "active": true
+            },
+            "home": {
+                "id": 3,
+                "name": "New York Rangers",
+                "link": "/api/v1/teams/3",
+                "venue": {
+                    "id": 5054,
+                    "name": "Madison Square Garden",
+                    "link": "/api/v1/venues/5054",
+                    "city": "New York",
+                    "timeZone": {
+                        "id": "America/New_York",
+                        "offset": -4,
+                        "tz": "EDT"
+                    }
+                },
+                "abbreviation": "NYR",
+                "triCode": "NYR",
+                "teamName": "Rangers",
+                "locationName": "New York",
+                "firstYearOfPlay": "1926",
+                "division": {
+                    "id": 1,
+                    "name": "Atlantic",
+                    "link": "/api/v1/divisions/1"
+                },
+                "conference": {
+                    "id": 1,
+                    "name": "Eastern",
+                    "link": "/api/v1/conferences/1"
+                },
+                "franchise": {
+                    "franchiseId": 10,
+                    "teamName": "Rangers",
+                    "link": "/api/v1/franchises/10"
+                },
+                "shortName": "NY Rangers",
+                "officialSiteUrl": "http://www.newyorkrangers.com",
+                "franchiseId": 10,
+                "active": true
+            }
+        },
+        "players": {
+            "ID8462061": {
+                "id": 8462061,
+                "fullName": "Marc Chouinard",
+                "link": "/api/v1/people/8462061",
+                "firstName": "Marc",
+                "lastName": "Chouinard",
+                "primaryNumber": "32",
+                "birthDate": "1977-05-06",
+                "birthCity": "Charle",
+                "birthStateProvince": "QC",
+                "birthCountry": "CAN",
+                "nationality": "CAN",
+                "height": "6' 5\"",
+                "weight": 205,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "R",
+                "rosterStatus": "N",
+                "primaryPosition": {
+                    "code": "C",
+                    "name": "Center",
+                    "type": "Forward",
+                    "abbreviation": "C"
+                }
+            },
+            "ID8459596": {
+                "id": 8459596,
+                "fullName": "Andrew Brunette",
+                "link": "/api/v1/people/8459596",
+                "firstName": "Andrew",
+                "lastName": "Brunette",
+                "primaryNumber": "15",
+                "birthDate": "1973-08-24",
+                "birthCity": "Sudbury",
+                "birthStateProvince": "ON",
+                "birthCountry": "CAN",
+                "nationality": "CAN",
+                "height": "6' 1\"",
+                "weight": 215,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "Y",
+                "primaryPosition": {
+                    "code": "L",
+                    "name": "Left Wing",
+                    "type": "Forward",
+                    "abbreviation": "LW"
+                }
+            },
+            "ID8465012": {
+                "id": 8465012,
+                "fullName": "Tom Poti",
+                "link": "/api/v1/people/8465012",
+                "firstName": "Tom",
+                "lastName": "Poti",
+                "primaryNumber": "3",
+                "birthDate": "1977-03-22",
+                "birthCity": "Worcester",
+                "birthStateProvince": "MA",
+                "birthCountry": "USA",
+                "nationality": "USA",
+                "height": "6' 3\"",
+                "weight": 190,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "Y",
+                "primaryPosition": {
+                    "code": "D",
+                    "name": "Defenseman",
+                    "type": "Defenseman",
+                    "abbreviation": "D"
+                }
+            },
+            "ID8449807": {
+                "id": 8449807,
+                "fullName": "Petr Nedved",
+                "link": "/api/v1/people/8449807",
+                "firstName": "Petr",
+                "lastName": "Nedved",
+                "primaryNumber": "93",
+                "birthDate": "1971-12-09",
+                "birthCity": "Liberec",
+                "birthCountry": "CZE",
+                "nationality": "CZE",
+                "height": "6' 3\"",
+                "weight": 196,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "N",
+                "primaryPosition": {
+                    "code": "C",
+                    "name": "Center",
+                    "type": "Forward",
+                    "abbreviation": "C"
+                }
+            },
+            "ID8468483": {
+                "id": 8468483,
+                "fullName": "Marian Gaborik",
+                "link": "/api/v1/people/8468483",
+                "firstName": "Marian",
+                "lastName": "Gaborik",
+                "primaryNumber": "12",
+                "birthDate": "1982-02-14",
+                "currentAge": 41,
+                "birthCity": "Trencin",
+                "birthCountry": "SVK",
+                "nationality": "SVK",
+                "height": "6' 1\"",
+                "weight": 205,
+                "active": true,
+                "alternateCaptain": false,
+                "captain": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "Y",
+                "currentTeam": {
+                    "id": 26,
+                    "name": "Los Angeles Kings",
+                    "link": "/api/v1/teams/26",
+                    "triCode": "LAK"
+                },
+                "primaryPosition": {
+                    "code": "R",
+                    "name": "Right Wing",
+                    "type": "Forward",
+                    "abbreviation": "RW"
+                }
+            },
+            "ID8456100": {
+                "id": 8456100,
+                "fullName": "Jim Dowd",
+                "link": "/api/v1/people/8456100",
+                "firstName": "Jim",
+                "lastName": "Dowd",
+                "primaryNumber": "34",
+                "birthDate": "1968-12-25",
+                "birthCity": "Brick",
+                "birthStateProvince": "NJ",
+                "birthCountry": "USA",
+                "nationality": "USA",
+                "height": "6' 0\"",
+                "weight": 180,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "R",
+                "rosterStatus": "N",
+                "primaryPosition": {
+                    "code": "C",
+                    "name": "Center",
+                    "type": "Forward",
+                    "abbreviation": "C"
+                }
+            },
+            "ID8462081": {
+                "id": 8462081,
+                "fullName": "Jan Hlavac",
+                "link": "/api/v1/people/8462081",
+                "firstName": "Jan",
+                "lastName": "Hlavac",
+                "primaryNumber": "17",
+                "birthDate": "1976-09-20",
+                "birthCity": "Prague",
+                "birthCountry": "CZE",
+                "nationality": "CZE",
+                "height": "6' 0\"",
+                "weight": 201,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "Y",
+                "primaryPosition": {
+                    "code": "L",
+                    "name": "Left Wing",
+                    "type": "Forward",
+                    "abbreviation": "LW"
+                }
+            },
+            "ID8467392": {
+                "id": 8467392,
+                "fullName": "Alex Henry",
+                "link": "/api/v1/people/8467392",
+                "firstName": "Alex",
+                "lastName": "Henry",
+                "primaryNumber": "24",
+                "birthDate": "1979-10-18",
+                "birthCity": "Elliot Lake",
+                "birthStateProvince": "ON",
+                "birthCountry": "CAN",
+                "nationality": "CAN",
+                "height": "6' 6\"",
+                "weight": 231,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "N",
+                "primaryPosition": {
+                    "code": "D",
+                    "name": "Defenseman",
+                    "type": "Defenseman",
+                    "abbreviation": "D"
+                }
+            },
+            "ID8468184": {
+                "id": 8468184,
+                "fullName": "Lawrence Nycholat",
+                "link": "/api/v1/people/8468184",
+                "firstName": "Lawrence",
+                "lastName": "Nycholat",
+                "primaryNumber": "32",
+                "birthDate": "1979-05-07",
+                "birthCity": "Calgary",
+                "birthStateProvince": "AB",
+                "birthCountry": "CAN",
+                "nationality": "CAN",
+                "height": "6' 0\"",
+                "weight": 200,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "N",
+                "primaryPosition": {
+                    "code": "D",
+                    "name": "Defenseman",
+                    "type": "Defenseman",
+                    "abbreviation": "D"
+                }
+            },
+            "ID8458546": {
+                "id": 8458546,
+                "fullName": "Jamie Pushor",
+                "link": "/api/v1/people/8458546",
+                "firstName": "Jamie",
+                "lastName": "Pushor",
+                "primaryNumber": "5",
+                "birthDate": "1973-02-11",
+                "birthCity": "Lethbridge",
+                "birthStateProvince": "AB",
+                "birthCountry": "CAN",
+                "nationality": "CAN",
+                "height": "6' 3\"",
+                "weight": 218,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "R",
+                "rosterStatus": "N",
+                "primaryPosition": {
+                    "code": "D",
+                    "name": "Defenseman",
+                    "type": "Defenseman",
+                    "abbreviation": "D"
+                }
+            },
+            "ID8459614": {
+                "id": 8459614,
+                "fullName": "Paul Healey",
+                "link": "/api/v1/people/8459614",
+                "firstName": "Paul",
+                "lastName": "Healey",
+                "primaryNumber": "37",
+                "birthDate": "1975-03-20",
+                "birthCity": "Edmonton",
+                "birthStateProvince": "AB",
+                "birthCountry": "CAN",
+                "nationality": "CAN",
+                "height": "6' 2\"",
+                "weight": 198,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "R",
+                "rosterStatus": "N",
+                "primaryPosition": {
+                    "code": "R",
+                    "name": "Right Wing",
+                    "type": "Forward",
+                    "abbreviation": "RW"
+                }
+            },
+            "ID8455653": {
+                "id": 8455653,
+                "fullName": "Brad Bombardir",
+                "link": "/api/v1/people/8455653",
+                "firstName": "Brad",
+                "lastName": "Bombardir",
+                "primaryNumber": "5",
+                "birthDate": "1972-05-05",
+                "birthCity": "Powell River",
+                "birthStateProvince": "BC",
+                "birthCountry": "CAN",
+                "nationality": "CAN",
+                "height": "6' 1\"",
+                "weight": 205,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "Y",
+                "primaryPosition": {
+                    "code": "D",
+                    "name": "Defenseman",
+                    "type": "Defenseman",
+                    "abbreviation": "D"
+                }
+            },
+            "ID8458963": {
+                "id": 8458963,
+                "fullName": "Boris Mironov",
+                "link": "/api/v1/people/8458963",
+                "firstName": "Boris",
+                "lastName": "Mironov",
+                "primaryNumber": "29",
+                "birthDate": "1972-03-21",
+                "birthCity": "Moscow",
+                "birthCountry": "RUS",
+                "nationality": "RUS",
+                "height": "6' 4\"",
+                "weight": 223,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "R",
+                "rosterStatus": "Y",
+                "primaryPosition": {
+                    "code": "D",
+                    "name": "Defenseman",
+                    "type": "Defenseman",
+                    "abbreviation": "D"
+                }
+            },
+            "ID8459019": {
+                "id": 8459019,
+                "fullName": "Matthew Barnaby",
+                "link": "/api/v1/people/8459019",
+                "firstName": "Matthew",
+                "lastName": "Barnaby",
+                "primaryNumber": "77",
+                "birthDate": "1973-05-04",
+                "birthCity": "Ottawa",
+                "birthStateProvince": "ON",
+                "birthCountry": "CAN",
+                "nationality": "CAN",
+                "height": "6' 1\"",
+                "weight": 191,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "I",
+                "primaryPosition": {
+                    "code": "R",
+                    "name": "Right Wing",
+                    "type": "Forward",
+                    "abbreviation": "RW"
+                }
+            },
+            "ID8449573": {
+                "id": 8449573,
+                "fullName": "Mark Messier",
+                "link": "/api/v1/people/8449573",
+                "firstName": "Mark",
+                "lastName": "Messier",
+                "primaryNumber": "11",
+                "birthDate": "1961-01-18",
+                "birthCity": "Edmonton",
+                "birthStateProvince": "AB",
+                "birthCountry": "CAN",
+                "nationality": "CAN",
+                "height": "6' 2\"",
+                "weight": 211,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "Y",
+                "primaryPosition": {
+                    "code": "C",
+                    "name": "Center",
+                    "type": "Forward",
+                    "abbreviation": "C"
+                }
+            },
+            "ID8452285": {
+                "id": 8452285,
+                "fullName": "Wes Walz",
+                "link": "/api/v1/people/8452285",
+                "firstName": "Wes",
+                "lastName": "Walz",
+                "primaryNumber": "37",
+                "birthDate": "1970-05-15",
+                "birthCity": "Calgary",
+                "birthStateProvince": "AB",
+                "birthCountry": "CAN",
+                "nationality": "CAN",
+                "height": "5' 11\"",
+                "weight": 190,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "R",
+                "rosterStatus": "N",
+                "primaryPosition": {
+                    "code": "C",
+                    "name": "Center",
+                    "type": "Forward",
+                    "abbreviation": "C"
+                }
+            },
+            "ID8470153": {
+                "id": 8470153,
+                "fullName": "Pierre-Marc Bouchard",
+                "link": "/api/v1/people/8470153",
+                "firstName": "Pierre-Marc",
+                "lastName": "Bouchard",
+                "primaryNumber": "96",
+                "birthDate": "1984-04-27",
+                "birthCity": "Sherbrooke",
+                "birthStateProvince": "QC",
+                "birthCountry": "CAN",
+                "nationality": "CAN",
+                "height": "5' 10\"",
+                "weight": 168,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "N",
+                "primaryPosition": {
+                    "code": "C",
+                    "name": "Center",
+                    "type": "Forward",
+                    "abbreviation": "C"
+                }
+            },
+            "ID8448769": {
+                "id": 8448769,
+                "fullName": "Brian Leetch",
+                "link": "/api/v1/people/8448769",
+                "firstName": "Brian",
+                "lastName": "Leetch",
+                "primaryNumber": "2",
+                "birthDate": "1968-03-03",
+                "birthCity": "Corpus Christi",
+                "birthStateProvince": "TX",
+                "birthCountry": "USA",
+                "nationality": "USA",
+                "height": "6' 0\"",
+                "weight": 190,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "Y",
+                "primaryPosition": {
+                    "code": "D",
+                    "name": "Defenseman",
+                    "type": "Defenseman",
+                    "abbreviation": "D"
+                }
+            },
+            "ID8448208": {
+                "id": 8448208,
+                "fullName": "Jaromir Jagr",
+                "link": "/api/v1/people/8448208",
+                "firstName": "Jaromir",
+                "lastName": "Jagr",
+                "primaryNumber": "68",
+                "birthDate": "1972-02-15",
+                "birthCity": "Kladno",
+                "birthCountry": "CZE",
+                "nationality": "CZE",
+                "height": "6' 3\"",
+                "weight": 230,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "Y",
+                "primaryPosition": {
+                    "code": "R",
+                    "name": "Right Wing",
+                    "type": "Forward",
+                    "abbreviation": "RW"
+                }
+            },
+            "ID8460498": {
+                "id": 8460498,
+                "fullName": "Jason Wiemer",
+                "link": "/api/v1/people/8460498",
+                "firstName": "Jason",
+                "lastName": "Wiemer",
+                "primaryNumber": "16",
+                "birthDate": "1976-04-14",
+                "birthCity": "Kimberley",
+                "birthStateProvince": "BC",
+                "birthCountry": "CAN",
+                "nationality": "CAN",
+                "height": "6' 1\"",
+                "weight": 225,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "N",
+                "primaryPosition": {
+                    "code": "C",
+                    "name": "Center",
+                    "type": "Forward",
+                    "abbreviation": "C"
+                }
+            },
+            "ID8466316": {
+                "id": 8466316,
+                "fullName": "Antti Laaksonen",
+                "link": "/api/v1/people/8466316",
+                "firstName": "Antti",
+                "lastName": "Laaksonen",
+                "primaryNumber": "24",
+                "birthDate": "1973-10-03",
+                "birthCity": "Tammela",
+                "birthCountry": "FIN",
+                "nationality": "FIN",
+                "height": "6' 0\"",
+                "weight": 180,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "N",
+                "primaryPosition": {
+                    "code": "L",
+                    "name": "Left Wing",
+                    "type": "Forward",
+                    "abbreviation": "LW"
+                }
+            },
+            "ID8468513": {
+                "id": 8468513,
+                "fullName": "Nick Schultz",
+                "link": "/api/v1/people/8468513",
+                "firstName": "Nick",
+                "lastName": "Schultz",
+                "primaryNumber": "55",
+                "birthDate": "1982-08-25",
+                "birthCity": "Strasbourg",
+                "birthStateProvince": "SK",
+                "birthCountry": "CAN",
+                "nationality": "CAN",
+                "height": "6' 1\"",
+                "weight": 203,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "Y",
+                "primaryPosition": {
+                    "code": "D",
+                    "name": "Defenseman",
+                    "type": "Defenseman",
+                    "abbreviation": "D"
+                }
+            },
+            "ID8469528": {
+                "id": 8469528,
+                "fullName": "Garth Murray",
+                "link": "/api/v1/people/8469528",
+                "firstName": "Garth",
+                "lastName": "Murray",
+                "primaryNumber": "41",
+                "birthDate": "1982-09-17",
+                "birthCity": "Regina",
+                "birthStateProvince": "SK",
+                "birthCountry": "CAN",
+                "nationality": "CAN",
+                "height": "6' 2\"",
+                "weight": 210,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "N",
+                "primaryPosition": {
+                    "code": "C",
+                    "name": "Center",
+                    "type": "Forward",
+                    "abbreviation": "C"
+                }
+            },
+            "ID8447958": {
+                "id": 8447958,
+                "fullName": "Bobby Holik",
+                "link": "/api/v1/people/8447958",
+                "firstName": "Bobby",
+                "lastName": "Holik",
+                "primaryNumber": "16",
+                "birthDate": "1971-01-01",
+                "birthCity": "Jihlava",
+                "birthCountry": "CZE",
+                "nationality": "CZE",
+                "height": "6' 4\"",
+                "weight": 230,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "R",
+                "rosterStatus": "Y",
+                "primaryPosition": {
+                    "code": "C",
+                    "name": "Center",
+                    "type": "Forward",
+                    "abbreviation": "C"
+                }
+            },
+            "ID8470613": {
+                "id": 8470613,
+                "fullName": "Brent Burns",
+                "link": "/api/v1/people/8470613",
+                "firstName": "Brent",
+                "lastName": "Burns",
+                "primaryNumber": "88",
+                "birthDate": "1985-03-09",
+                "currentAge": 38,
+                "birthCity": "Barrie",
+                "birthStateProvince": "ON",
+                "birthCountry": "CAN",
+                "nationality": "CAN",
+                "height": "6' 5\"",
+                "weight": 230,
+                "active": true,
+                "alternateCaptain": false,
+                "captain": false,
+                "rookie": false,
+                "shootsCatches": "R",
+                "rosterStatus": "Y",
+                "currentTeam": {
+                    "id": 28,
+                    "name": "San Jose Sharks",
+                    "link": "/api/v1/teams/28",
+                    "triCode": "SJS"
+                },
+                "primaryPosition": {
+                    "code": "D",
+                    "name": "Defenseman",
+                    "type": "Defenseman",
+                    "abbreviation": "D"
+                }
+            },
+            "ID8458031": {
+                "id": 8458031,
+                "fullName": "Chris Simon",
+                "link": "/api/v1/people/8458031",
+                "firstName": "Chris",
+                "lastName": "Simon",
+                "primaryNumber": "11",
+                "birthDate": "1972-01-30",
+                "birthCity": "Wawa",
+                "birthStateProvince": "ON",
+                "birthCountry": "CAN",
+                "nationality": "CAN",
+                "height": "6' 3\"",
+                "weight": 232,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "Y",
+                "primaryPosition": {
+                    "code": "L",
+                    "name": "Left Wing",
+                    "type": "Forward",
+                    "abbreviation": "LW"
+                }
+            },
+            "ID8467882": {
+                "id": 8467882,
+                "fullName": "Jamie Lundmark",
+                "link": "/api/v1/people/8467882",
+                "firstName": "Jamie",
+                "lastName": "Lundmark",
+                "primaryNumber": "21",
+                "birthDate": "1981-01-16",
+                "birthCity": "Edmonton",
+                "birthStateProvince": "AB",
+                "birthCountry": "CAN",
+                "nationality": "CAN",
+                "height": "6' 0\"",
+                "weight": 197,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "R",
+                "rosterStatus": "N",
+                "primaryPosition": {
+                    "code": "C",
+                    "name": "Center",
+                    "type": "Forward",
+                    "abbreviation": "C"
+                }
+            },
+            "ID8465185": {
+                "id": 8465185,
+                "fullName": "Willie Mitchell",
+                "link": "/api/v1/people/8465185",
+                "firstName": "Willie",
+                "lastName": "Mitchell",
+                "primaryNumber": "33",
+                "birthDate": "1977-04-23",
+                "birthCity": "Port McNeill",
+                "birthStateProvince": "BC",
+                "birthCountry": "CAN",
+                "nationality": "CAN",
+                "height": "6' 3\"",
+                "weight": 210,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "I",
+                "primaryPosition": {
+                    "code": "D",
+                    "name": "Defenseman",
+                    "type": "Defenseman",
+                    "abbreviation": "D"
+                }
+            },
+            "ID8458991": {
+                "id": 8458991,
+                "fullName": "Sergei Zholtok",
+                "link": "/api/v1/people/8458991",
+                "firstName": "Sergei",
+                "lastName": "Zholtok",
+                "primaryNumber": "9",
+                "birthDate": "1972-12-02",
+                "birthCity": "Riga",
+                "birthCountry": "LVA",
+                "nationality": "LVA",
+                "height": "6' 1\"",
+                "weight": 197,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "R",
+                "rosterStatus": "Y",
+                "primaryPosition": {
+                    "code": "C",
+                    "name": "Center",
+                    "type": "Forward",
+                    "abbreviation": "C"
+                }
+            },
+            "ID8467342": {
+                "id": 8467342,
+                "fullName": "Eric Chouinard",
+                "link": "/api/v1/people/8467342",
+                "firstName": "Eric",
+                "lastName": "Chouinard",
+                "primaryNumber": "15",
+                "birthDate": "1980-07-08",
+                "birthCity": "Atlanta",
+                "birthStateProvince": "GA",
+                "birthCountry": "USA",
+                "nationality": "CAN",
+                "height": "6' 3\"",
+                "weight": 215,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "N",
+                "primaryPosition": {
+                    "code": "C",
+                    "name": "Center",
+                    "type": "Forward",
+                    "abbreviation": "C"
+                }
+            },
+            "ID8459065": {
+                "id": 8459065,
+                "fullName": "Joel Bouchard",
+                "link": "/api/v1/people/8459065",
+                "firstName": "Joel",
+                "lastName": "Bouchard",
+                "primaryNumber": "4",
+                "birthDate": "1974-01-23",
+                "birthCity": "Montreal",
+                "birthStateProvince": "QC",
+                "birthCountry": "CAN",
+                "nationality": "CAN",
+                "height": "6' 1\"",
+                "weight": 209,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "I",
+                "primaryPosition": {
+                    "code": "D",
+                    "name": "Defenseman",
+                    "type": "Defenseman",
+                    "abbreviation": "D"
+                }
+            },
+            "ID8459423": {
+                "id": 8459423,
+                "fullName": "Alexandre Daigle",
+                "link": "/api/v1/people/8459423",
+                "firstName": "Alexandre",
+                "lastName": "Daigle",
+                "primaryNumber": "9",
+                "birthDate": "1975-02-07",
+                "birthCity": "Montreal",
+                "birthStateProvince": "QC",
+                "birthCountry": "CAN",
+                "nationality": "CAN",
+                "height": "6' 0\"",
+                "weight": 204,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "N",
+                "primaryPosition": {
+                    "code": "R",
+                    "name": "Right Wing",
+                    "type": "Forward",
+                    "abbreviation": "RW"
+                }
+            },
+            "ID8466393": {
+                "id": 8466393,
+                "fullName": "Pascal Dupuis",
+                "link": "/api/v1/people/8466393",
+                "firstName": "Pascal",
+                "lastName": "Dupuis",
+                "primaryNumber": "9",
+                "birthDate": "1979-04-07",
+                "birthCity": "Laval",
+                "birthStateProvince": "QC",
+                "birthCountry": "CAN",
+                "nationality": "CAN",
+                "height": "6' 1\"",
+                "weight": 205,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "I",
+                "primaryPosition": {
+                    "code": "R",
+                    "name": "Right Wing",
+                    "type": "Forward",
+                    "abbreviation": "RW"
+                }
+            },
+            "ID8457222": {
+                "id": 8457222,
+                "fullName": "Jason Marshall",
+                "link": "/api/v1/people/8457222",
+                "firstName": "Jason",
+                "lastName": "Marshall",
+                "primaryNumber": "6",
+                "birthDate": "1971-02-22",
+                "birthCity": "Cranbrook",
+                "birthStateProvince": "BC",
+                "birthCountry": "CAN",
+                "nationality": "CAN",
+                "height": "6' 2\"",
+                "weight": 200,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "R",
+                "rosterStatus": "Y",
+                "primaryPosition": {
+                    "code": "D",
+                    "name": "Defenseman",
+                    "type": "Defenseman",
+                    "abbreviation": "D"
+                }
+            },
+            "ID8458534": {
+                "id": 8458534,
+                "fullName": "Martin Rucinsky",
+                "link": "/api/v1/people/8458534",
+                "firstName": "Martin",
+                "lastName": "Rucinsky",
+                "primaryNumber": "26",
+                "birthDate": "1971-03-11",
+                "birthCity": "Most",
+                "birthCountry": "CZE",
+                "nationality": "CZE",
+                "height": "6' 1\"",
+                "weight": 205,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "Y",
+                "primaryPosition": {
+                    "code": "L",
+                    "name": "Left Wing",
+                    "type": "Forward",
+                    "abbreviation": "LW"
+                }
+            },
+            "ID8456137": {
+                "id": 8456137,
+                "fullName": "Mike Dunham",
+                "link": "/api/v1/people/8456137",
+                "firstName": "Mike",
+                "lastName": "Dunham",
+                "primaryNumber": "1",
+                "birthDate": "1972-06-01",
+                "birthCity": "Johnson City",
+                "birthStateProvince": "NY",
+                "birthCountry": "USA",
+                "nationality": "USA",
+                "height": "6' 2\"",
+                "weight": 190,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "Y",
+                "primaryPosition": {
+                    "code": "G",
+                    "name": "Goalie",
+                    "type": "Goalie",
+                    "abbreviation": "G"
+                }
+            },
+            "ID8460806": {
+                "id": 8460806,
+                "fullName": "Dwayne Roloson",
+                "link": "/api/v1/people/8460806",
+                "firstName": "Dwayne",
+                "lastName": "Roloson",
+                "primaryNumber": "30",
+                "birthDate": "1969-10-12",
+                "birthCity": "Simcoe",
+                "birthStateProvince": "ON",
+                "birthCountry": "CAN",
+                "nationality": "CAN",
+                "height": "6' 1\"",
+                "weight": 170,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "Y",
+                "primaryPosition": {
+                    "code": "G",
+                    "name": "Goalie",
+                    "type": "Goalie",
+                    "abbreviation": "G"
+                }
+            },
+            "ID8458529": {
+                "id": 8458529,
+                "fullName": "Alex Kovalev",
+                "link": "/api/v1/people/8458529",
+                "firstName": "Alex",
+                "lastName": "Kovalev",
+                "primaryNumber": "27",
+                "birthDate": "1973-02-24",
+                "birthCity": "Togliatti",
+                "birthCountry": "RUS",
+                "nationality": "RUS",
+                "height": "6' 2\"",
+                "weight": 222,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "N",
+                "primaryPosition": {
+                    "code": "R",
+                    "name": "Right Wing",
+                    "type": "Forward",
+                    "abbreviation": "RW"
+                }
+            },
+            "ID8470580": {
+                "id": 8470580,
+                "fullName": "Jed Ortmeyer",
+                "link": "/api/v1/people/8470580",
+                "firstName": "Jed",
+                "lastName": "Ortmeyer",
+                "primaryNumber": "41",
+                "birthDate": "1978-09-03",
+                "birthCity": "Omaha",
+                "birthStateProvince": "NE",
+                "birthCountry": "USA",
+                "nationality": "USA",
+                "height": "6' 0\"",
+                "weight": 200,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "R",
+                "rosterStatus": "N",
+                "primaryPosition": {
+                    "code": "R",
+                    "name": "Right Wing",
+                    "type": "Forward",
+                    "abbreviation": "RW"
+                }
+            },
+            "ID8460524": {
+                "id": 8460524,
+                "fullName": "Matt Johnson",
+                "link": "/api/v1/people/8460524",
+                "firstName": "Matt",
+                "lastName": "Johnson",
+                "primaryNumber": "12",
+                "birthDate": "1975-11-23",
+                "birthCity": "Welland",
+                "birthStateProvince": "ON",
+                "birthCountry": "CAN",
+                "nationality": "CAN",
+                "height": "6' 5\"",
+                "weight": 235,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "N",
+                "primaryPosition": {
+                    "code": "L",
+                    "name": "Left Wing",
+                    "type": "Forward",
+                    "abbreviation": "LW"
+                }
+            },
+            "ID8460541": {
+                "id": 8460541,
+                "fullName": "Richard Park",
+                "link": "/api/v1/people/8460541",
+                "firstName": "Richard",
+                "lastName": "Park",
+                "primaryNumber": "12",
+                "birthDate": "1976-05-27",
+                "birthCity": "Seoul",
+                "birthCountry": "KOR",
+                "nationality": "USA",
+                "height": "5' 11\"",
+                "weight": 190,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "R",
+                "rosterStatus": "Y",
+                "primaryPosition": {
+                    "code": "R",
+                    "name": "Right Wing",
+                    "type": "Forward",
+                    "abbreviation": "RW"
+                }
+            },
+            "ID8462225": {
+                "id": 8462225,
+                "fullName": "Filip Kuba",
+                "link": "/api/v1/people/8462225",
+                "firstName": "Filip",
+                "lastName": "Kuba",
+                "primaryNumber": "17",
+                "birthDate": "1976-12-29",
+                "birthCity": "Ostrava",
+                "birthCountry": "CZE",
+                "nationality": "CZE",
+                "height": "6' 4\"",
+                "weight": 225,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "N",
+                "primaryPosition": {
+                    "code": "D",
+                    "name": "Defenseman",
+                    "type": "Defenseman",
+                    "abbreviation": "D"
+                }
+            },
+            "ID8462148": {
+                "id": 8462148,
+                "fullName": "Dale Purinton",
+                "link": "/api/v1/people/8462148",
+                "firstName": "Dale",
+                "lastName": "Purinton",
+                "primaryNumber": "32",
+                "birthDate": "1976-10-11",
+                "birthCity": "Fort Wayne",
+                "birthStateProvince": "IN",
+                "birthCountry": "USA",
+                "nationality": "USA",
+                "height": "6' 3\"",
+                "weight": 228,
+                "active": false,
+                "rookie": false,
+                "shootsCatches": "L",
+                "rosterStatus": "N",
+                "primaryPosition": {
+                    "code": "D",
+                    "name": "Defenseman",
+                    "type": "Defenseman",
+                    "abbreviation": "D"
+                }
+            }
+        },
+        "venue": {
+            "id": 5054,
+            "name": "Madison Square Garden",
+            "link": "/api/v1/venues/5054"
+        }
+    },
+    "liveData": {
+        "plays": {
+            "allPlays": [
+                {
+                    "players": [
+                        {
+                            "player": {
+                                "id": 8466316,
+                                "fullName": "Antti Laaksonen",
+                                "link": "/api/v1/people/8466316"
+                            },
+                            "playerType": "Scorer",
+                            "seasonTotal": 10
+                        },
+                        {
+                            "player": {
+                                "id": 8468483,
+                                "fullName": "Marian Gaborik",
+                                "link": "/api/v1/people/8468483"
+                            },
+                            "playerType": "Assist",
+                            "seasonTotal": 10
+                        },
+                        {
+                            "player": {
+                                "id": 8465185,
+                                "fullName": "Willie Mitchell",
+                                "link": "/api/v1/people/8465185"
+                            },
+                            "playerType": "Assist",
+                            "seasonTotal": 10
+                        },
+                        {
+                            "player": {
+                                "id": 8456137,
+                                "fullName": "Mike Dunham",
+                                "link": "/api/v1/people/8456137"
+                            },
+                            "playerType": "Goalie"
+                        }
+                    ],
+                    "result": {
+                        "event": "Goal",
+                        "eventCode": "NYR274",
+                        "eventTypeId": "GOAL",
+                        "description": "Antti Laaksonen (10) Wrist Shot, assists: Marian Gaborik (10), Willie Mitchell (10)",
+                        "strength": {
+                            "code": "EVEN",
+                            "name": "Even"
+                        },
+                        "gameWinningGoal": false,
+                        "emptyNet": false
+                    },
+                    "about": {
+                        "eventIdx": 0,
+                        "eventId": 274,
+                        "period": 1,
+                        "periodType": "REGULAR",
+                        "ordinalNum": "1st",
+                        "periodTime": "04:34",
+                        "periodTimeRemaining": "",
+                        "dateTime": "2004-02-05T00:30:00Z",
+                        "goals": {
+                            "away": 1,
+                            "home": 0
+                        }
+                    },
+                    "coordinates": {},
+                    "team": {
+                        "id": 30,
+                        "name": "Minnesota Wild",
+                        "link": "/api/v1/teams/30",
+                        "triCode": "MIN"
+                    }
+                },
+                {
+                    "players": [
+                        {
+                            "player": {
+                                "id": 8460524,
+                                "fullName": "Matt Johnson",
+                                "link": "/api/v1/people/8460524"
+                            },
+                            "playerType": "PenaltyOn"
+                        },
+                        {
+                            "player": {
+                                "id": 8459019,
+                                "fullName": "Matthew Barnaby",
+                                "link": "/api/v1/people/8459019"
+                            },
+                            "playerType": "DrewBy"
+                        }
+                    ],
+                    "result": {
+                        "event": "Penalty",
+                        "eventCode": "NYR10631",
+                        "eventTypeId": "PENALTY",
+                        "description": "Matt Johnson Roughing against Matthew Barnaby",
+                        "secondaryType": "Roughing",
+                        "penaltyMinutes": 2
+                    },
+                    "about": {
+                        "eventIdx": 7,
+                        "eventId": 10631,
+                        "period": 1,
+                        "periodType": "REGULAR",
+                        "ordinalNum": "1st",
+                        "periodTime": "10:31",
+                        "periodTimeRemaining": "",
+                        "dateTime": "2004-02-05T00:30:00Z",
+                        "goals": {
+                            "away": 1,
+                            "home": 0
+                        }
+                    },
+                    "coordinates": {},
+                    "team": {
+                        "id": 30,
+                        "name": "Minnesota Wild",
+                        "link": "/api/v1/teams/30",
+                        "triCode": "MIN"
+                    }
+                },
+                {
+                    "players": [
+                        {
+                            "player": {
+                                "id": 8459019,
+                                "fullName": "Matthew Barnaby",
+                                "link": "/api/v1/people/8459019"
+                            },
+                            "playerType": "PenaltyOn"
+                        },
+                        {
+                            "player": {
+                                "id": 8460524,
+                                "fullName": "Matt Johnson",
+                                "link": "/api/v1/people/8460524"
+                            },
+                            "playerType": "DrewBy"
+                        }
+                    ],
+                    "result": {
+                        "event": "Penalty",
+                        "eventCode": "NYR20631",
+                        "eventTypeId": "PENALTY",
+                        "description": "Matthew Barnaby Roughing against Matt Johnson",
+                        "secondaryType": "Roughing",
+                        "penaltyMinutes": 2
+                    },
+                    "about": {
+                        "eventIdx": 8,
+                        "eventId": 20631,
+                        "period": 1,
+                        "periodType": "REGULAR",
+                        "ordinalNum": "1st",
+                        "periodTime": "10:31",
+                        "periodTimeRemaining": "",
+                        "dateTime": "2004-02-05T00:30:00Z",
+                        "goals": {
+                            "away": 1,
+                            "home": 0
+                        }
+                    },
+                    "coordinates": {},
+                    "team": {
+                        "id": 3,
+                        "name": "New York Rangers",
+                        "link": "/api/v1/teams/3",
+                        "triCode": "NYR"
+                    }
+                },
+                {
+                    "players": [
+                        {
+                            "player": {
+                                "id": 8460524,
+                                "fullName": "Matt Johnson",
+                                "link": "/api/v1/people/8460524"
+                            },
+                            "playerType": "PenaltyOn"
+                        }
+                    ],
+                    "result": {
+                        "event": "Penalty",
+                        "eventCode": "NYR11058",
+                        "eventTypeId": "PENALTY",
+                        "description": "Matt Johnson Delay of game",
+                        "secondaryType": "Delay of game",
+                        "penaltyMinutes": 2
+                    },
+                    "about": {
+                        "eventIdx": 9,
+                        "eventId": 11058,
+                        "period": 1,
+                        "periodType": "REGULAR",
+                        "ordinalNum": "1st",
+                        "periodTime": "17:38",
+                        "periodTimeRemaining": "",
+                        "dateTime": "2004-02-05T00:30:00Z",
+                        "goals": {
+                            "away": 1,
+                            "home": 0
+                        }
+                    },
+                    "coordinates": {},
+                    "team": {
+                        "id": 30,
+                        "name": "Minnesota Wild",
+                        "link": "/api/v1/teams/30",
+                        "triCode": "MIN"
+                    }
+                },
+                {
+                    "players": [
+                        {
+                            "player": {
+                                "id": 8469528,
+                                "fullName": "Garth Murray",
+                                "link": "/api/v1/people/8469528"
+                            },
+                            "playerType": "PenaltyOn"
+                        },
+                        {
+                            "player": {
+                                "id": 8462225,
+                                "fullName": "Filip Kuba",
+                                "link": "/api/v1/people/8462225"
+                            },
+                            "playerType": "DrewBy"
+                        }
+                    ],
+                    "result": {
+                        "event": "Penalty",
+                        "eventCode": "NYR11417",
+                        "eventTypeId": "PENALTY",
+                        "description": "Garth Murray Holding against Filip Kuba",
+                        "secondaryType": "Holding",
+                        "penaltyMinutes": 2
+                    },
+                    "about": {
+                        "eventIdx": 10,
+                        "eventId": 11417,
+                        "period": 2,
+                        "periodType": "REGULAR",
+                        "ordinalNum": "2nd",
+                        "periodTime": "03:37",
+                        "periodTimeRemaining": "",
+                        "dateTime": "2004-02-05T00:30:00Z",
+                        "goals": {
+                            "away": 1,
+                            "home": 0
+                        }
+                    },
+                    "coordinates": {},
+                    "team": {
+                        "id": 3,
+                        "name": "New York Rangers",
+                        "link": "/api/v1/teams/3",
+                        "triCode": "NYR"
+                    }
+                },
+                {
+                    "players": [
+                        {
+                            "player": {
+                                "id": 8458991,
+                                "fullName": "Sergei Zholtok",
+                                "link": "/api/v1/people/8458991"
+                            },
+                            "playerType": "Scorer",
+                            "seasonTotal": 9
+                        },
+                        {
+                            "player": {
+                                "id": 8459423,
+                                "fullName": "Alexandre Daigle",
+                                "link": "/api/v1/people/8459423"
+                            },
+                            "playerType": "Assist",
+                            "seasonTotal": 13
+                        },
+                        {
+                            "player": {
+                                "id": 8457222,
+                                "fullName": "Jason Marshall",
+                                "link": "/api/v1/people/8457222"
+                            },
+                            "playerType": "Assist",
+                            "seasonTotal": 3
+                        },
+                        {
+                            "player": {
+                                "id": 8456137,
+                                "fullName": "Mike Dunham",
+                                "link": "/api/v1/people/8456137"
+                            },
+                            "playerType": "Goalie"
+                        }
+                    ],
+                    "result": {
+                        "event": "Goal",
+                        "eventCode": "NYR1453",
+                        "eventTypeId": "GOAL",
+                        "description": "Sergei Zholtok (9) Slap Shot, assists: Alexandre Daigle (13), Jason Marshall (3)",
+                        "strength": {
+                            "code": "PPG",
+                            "name": "Power Play"
+                        },
+                        "gameWinningGoal": false,
+                        "emptyNet": false
+                    },
+                    "about": {
+                        "eventIdx": 1,
+                        "eventId": 1453,
+                        "period": 2,
+                        "periodType": "REGULAR",
+                        "ordinalNum": "2nd",
+                        "periodTime": "04:13",
+                        "periodTimeRemaining": "",
+                        "dateTime": "2004-02-05T00:30:00Z",
+                        "goals": {
+                            "away": 2,
+                            "home": 0
+                        }
+                    },
+                    "coordinates": {},
+                    "team": {
+                        "id": 30,
+                        "name": "Minnesota Wild",
+                        "link": "/api/v1/teams/30",
+                        "triCode": "MIN"
+                    }
+                },
+                {
+                    "players": [
+                        {
+                            "player": {
+                                "id": 8449807,
+                                "fullName": "Petr Nedved",
+                                "link": "/api/v1/people/8449807"
+                            },
+                            "playerType": "Scorer",
+                            "seasonTotal": 13
+                        },
+                        {
+                            "player": {
+                                "id": 8448208,
+                                "fullName": "Jaromir Jagr",
+                                "link": "/api/v1/people/8448208"
+                            },
+                            "playerType": "Assist",
+                            "seasonTotal": 33
+                        },
+                        {
+                            "player": {
+                                "id": 8458534,
+                                "fullName": "Martin Rucinsky",
+                                "link": "/api/v1/people/8458534"
+                            },
+                            "playerType": "Assist",
+                            "seasonTotal": 24
+                        },
+                        {
+                            "player": {
+                                "id": 8460806,
+                                "fullName": "Dwayne Roloson",
+                                "link": "/api/v1/people/8460806"
+                            },
+                            "playerType": "Goalie"
+                        }
+                    ],
+                    "result": {
+                        "event": "Goal",
+                        "eventCode": "NYR1553",
+                        "eventTypeId": "GOAL",
+                        "description": "Petr Nedved (13) Backhand, assists: Jaromir Jagr (33), Martin Rucinsky (24)",
+                        "strength": {
+                            "code": "EVEN",
+                            "name": "Even"
+                        },
+                        "gameWinningGoal": false,
+                        "emptyNet": false
+                    },
+                    "about": {
+                        "eventIdx": 2,
+                        "eventId": 1553,
+                        "period": 2,
+                        "periodType": "REGULAR",
+                        "ordinalNum": "2nd",
+                        "periodTime": "05:53",
+                        "periodTimeRemaining": "",
+                        "dateTime": "2004-02-05T00:30:00Z",
+                        "goals": {
+                            "away": 2,
+                            "home": 1
+                        }
+                    },
+                    "coordinates": {},
+                    "team": {
+                        "id": 3,
+                        "name": "New York Rangers",
+                        "link": "/api/v1/teams/3",
+                        "triCode": "NYR"
+                    }
+                },
+                {
+                    "players": [
+                        {
+                            "player": {
+                                "id": 8448208,
+                                "fullName": "Jaromir Jagr",
+                                "link": "/api/v1/people/8448208"
+                            },
+                            "playerType": "Scorer",
+                            "seasonTotal": 19
+                        },
+                        {
+                            "player": {
+                                "id": 8458534,
+                                "fullName": "Martin Rucinsky",
+                                "link": "/api/v1/people/8458534"
+                            },
+                            "playerType": "Assist",
+                            "seasonTotal": 25
+                        },
+                        {
+                            "player": {
+                                "id": 8447958,
+                                "fullName": "Bobby Holik",
+                                "link": "/api/v1/people/8447958"
+                            },
+                            "playerType": "Assist",
+                            "seasonTotal": 23
+                        },
+                        {
+                            "player": {
+                                "id": 8460806,
+                                "fullName": "Dwayne Roloson",
+                                "link": "/api/v1/people/8460806"
+                            },
+                            "playerType": "Goalie"
+                        }
+                    ],
+                    "result": {
+                        "event": "Goal",
+                        "eventCode": "NYR1882",
+                        "eventTypeId": "GOAL",
+                        "description": "Jaromir Jagr (19) Snap Shot, assists: Martin Rucinsky (25), Bobby Holik (23)",
+                        "strength": {
+                            "code": "EVEN",
+                            "name": "Even"
+                        },
+                        "gameWinningGoal": false,
+                        "emptyNet": false
+                    },
+                    "about": {
+                        "eventIdx": 3,
+                        "eventId": 1882,
+                        "period": 2,
+                        "periodType": "REGULAR",
+                        "ordinalNum": "2nd",
+                        "periodTime": "11:22",
+                        "periodTimeRemaining": "",
+                        "dateTime": "2004-02-05T00:30:00Z",
+                        "goals": {
+                            "away": 2,
+                            "home": 2
+                        }
+                    },
+                    "coordinates": {},
+                    "team": {
+                        "id": 3,
+                        "name": "New York Rangers",
+                        "link": "/api/v1/teams/3",
+                        "triCode": "NYR"
+                    }
+                },
+                {
+                    "players": [
+                        {
+                            "player": {
+                                "id": 8448208,
+                                "fullName": "Jaromir Jagr",
+                                "link": "/api/v1/people/8448208"
+                            },
+                            "playerType": "Scorer",
+                            "seasonTotal": 20
+                        },
+                        {
+                            "player": {
+                                "id": 8447958,
+                                "fullName": "Bobby Holik",
+                                "link": "/api/v1/people/8447958"
+                            },
+                            "playerType": "Assist",
+                            "seasonTotal": 24
+                        },
+                        {
+                            "player": {
+                                "id": 8458963,
+                                "fullName": "Boris Mironov",
+                                "link": "/api/v1/people/8458963"
+                            },
+                            "playerType": "Assist",
+                            "seasonTotal": 9
+                        },
+                        {
+                            "player": {
+                                "id": 8460806,
+                                "fullName": "Dwayne Roloson",
+                                "link": "/api/v1/people/8460806"
+                            },
+                            "playerType": "Goalie"
+                        }
+                    ],
+                    "result": {
+                        "event": "Goal",
+                        "eventCode": "NYR2141",
+                        "eventTypeId": "GOAL",
+                        "description": "Jaromir Jagr (20) Wrist Shot, assists: Bobby Holik (24), Boris Mironov (9)",
+                        "strength": {
+                            "code": "EVEN",
+                            "name": "Even"
+                        },
+                        "gameWinningGoal": false,
+                        "emptyNet": false
+                    },
+                    "about": {
+                        "eventIdx": 4,
+                        "eventId": 2141,
+                        "period": 2,
+                        "periodType": "REGULAR",
+                        "ordinalNum": "2nd",
+                        "periodTime": "15:41",
+                        "periodTimeRemaining": "",
+                        "dateTime": "2004-02-05T00:30:00Z",
+                        "goals": {
+                            "away": 2,
+                            "home": 3
+                        }
+                    },
+                    "coordinates": {},
+                    "team": {
+                        "id": 3,
+                        "name": "New York Rangers",
+                        "link": "/api/v1/teams/3",
+                        "triCode": "NYR"
+                    }
+                },
+                {
+                    "players": [
+                        {
+                            "player": {
+                                "id": 8449807,
+                                "fullName": "Petr Nedved",
+                                "link": "/api/v1/people/8449807"
+                            },
+                            "playerType": "PenaltyOn"
+                        },
+                        {
+                            "player": {
+                                "id": 8459596,
+                                "fullName": "Andrew Brunette",
+                                "link": "/api/v1/people/8459596"
+                            },
+                            "playerType": "DrewBy"
+                        }
+                    ],
+                    "result": {
+                        "event": "Penalty",
+                        "eventCode": "NYR12393",
+                        "eventTypeId": "PENALTY",
+                        "description": "Petr Nedved Cross checking against Andrew Brunette",
+                        "secondaryType": "Cross checking",
+                        "penaltyMinutes": 2
+                    },
+                    "about": {
+                        "eventIdx": 11,
+                        "eventId": 12393,
+                        "period": 2,
+                        "periodType": "REGULAR",
+                        "ordinalNum": "2nd",
+                        "periodTime": "19:53",
+                        "periodTimeRemaining": "",
+                        "dateTime": "2004-02-05T00:30:00Z",
+                        "goals": {
+                            "away": 2,
+                            "home": 3
+                        }
+                    },
+                    "coordinates": {},
+                    "team": {
+                        "id": 3,
+                        "name": "New York Rangers",
+                        "link": "/api/v1/teams/3",
+                        "triCode": "NYR"
+                    }
+                },
+                {
+                    "players": [
+                        {
+                            "player": {
+                                "id": 8458991,
+                                "fullName": "Sergei Zholtok",
+                                "link": "/api/v1/people/8458991"
+                            },
+                            "playerType": "Scorer",
+                            "seasonTotal": 10
+                        },
+                        {
+                            "player": {
+                                "id": 8459596,
+                                "fullName": "Andrew Brunette",
+                                "link": "/api/v1/people/8459596"
+                            },
+                            "playerType": "Assist",
+                            "seasonTotal": 24
+                        },
+                        {
+                            "player": {
+                                "id": 8457222,
+                                "fullName": "Jason Marshall",
+                                "link": "/api/v1/people/8457222"
+                            },
+                            "playerType": "Assist",
+                            "seasonTotal": 4
+                        },
+                        {
+                            "player": {
+                                "id": 8456137,
+                                "fullName": "Mike Dunham",
+                                "link": "/api/v1/people/8456137"
+                            },
+                            "playerType": "Goalie"
+                        }
+                    ],
+                    "result": {
+                        "event": "Goal",
+                        "eventCode": "NYR2451",
+                        "eventTypeId": "GOAL",
+                        "description": "Sergei Zholtok (10) Snap Shot, assists: Andrew Brunette (24), Jason Marshall (4)",
+                        "strength": {
+                            "code": "PPG",
+                            "name": "Power Play"
+                        },
+                        "gameWinningGoal": false,
+                        "emptyNet": false
+                    },
+                    "about": {
+                        "eventIdx": 5,
+                        "eventId": 2451,
+                        "period": 3,
+                        "periodType": "REGULAR",
+                        "ordinalNum": "3rd",
+                        "periodTime": "00:51",
+                        "periodTimeRemaining": "",
+                        "dateTime": "2004-02-05T00:30:00Z",
+                        "goals": {
+                            "away": 3,
+                            "home": 3
+                        }
+                    },
+                    "coordinates": {},
+                    "team": {
+                        "id": 30,
+                        "name": "Minnesota Wild",
+                        "link": "/api/v1/teams/30",
+                        "triCode": "MIN"
+                    }
+                },
+                {
+                    "players": [
+                        {
+                            "player": {
+                                "id": 8468184,
+                                "fullName": "Lawrence Nycholat",
+                                "link": "/api/v1/people/8468184"
+                            },
+                            "playerType": "PenaltyOn"
+                        }
+                    ],
+                    "result": {
+                        "event": "Penalty",
+                        "eventCode": "NYR12451",
+                        "eventTypeId": "PENALTY",
+                        "description": "Lawrence Nycholat Cross checking",
+                        "secondaryType": "Cross checking",
+                        "penaltyMinutes": 2
+                    },
+                    "about": {
+                        "eventIdx": 12,
+                        "eventId": 12451,
+                        "period": 3,
+                        "periodType": "REGULAR",
+                        "ordinalNum": "3rd",
+                        "periodTime": "00:51",
+                        "periodTimeRemaining": "",
+                        "dateTime": "2004-02-05T00:30:00Z",
+                        "goals": {
+                            "away": 3,
+                            "home": 3
+                        }
+                    },
+                    "coordinates": {},
+                    "team": {
+                        "id": 3,
+                        "name": "New York Rangers",
+                        "link": "/api/v1/teams/3",
+                        "triCode": "NYR"
+                    }
+                },
+                {
+                    "players": [
+                        {
+                            "player": {
+                                "id": 8457222,
+                                "fullName": "Jason Marshall",
+                                "link": "/api/v1/people/8457222"
+                            },
+                            "playerType": "PenaltyOn"
+                        },
+                        {
+                            "player": {
+                                "id": 8449573,
+                                "fullName": "Mark Messier",
+                                "link": "/api/v1/people/8449573"
+                            },
+                            "playerType": "DrewBy"
+                        }
+                    ],
+                    "result": {
+                        "event": "Penalty",
+                        "eventCode": "NYR12794",
+                        "eventTypeId": "PENALTY",
+                        "description": "Jason Marshall Kneeing against Mark Messier",
+                        "secondaryType": "Kneeing",
+                        "penaltyMinutes": 2
+                    },
+                    "about": {
+                        "eventIdx": 13,
+                        "eventId": 12794,
+                        "period": 3,
+                        "periodType": "REGULAR",
+                        "ordinalNum": "3rd",
+                        "periodTime": "06:34",
+                        "periodTimeRemaining": "",
+                        "dateTime": "2004-02-05T00:30:00Z",
+                        "goals": {
+                            "away": 3,
+                            "home": 3
+                        }
+                    },
+                    "coordinates": {},
+                    "team": {
+                        "id": 30,
+                        "name": "Minnesota Wild",
+                        "link": "/api/v1/teams/30",
+                        "triCode": "MIN"
+                    }
+                },
+                {
+                    "players": [
+                        {
+                            "player": {
+                                "id": 8460806,
+                                "fullName": "Dwayne Roloson",
+                                "link": "/api/v1/people/8460806"
+                            },
+                            "playerType": "PenaltyOn"
+                        },
+                        {
+                            "player": {
+                                "id": 8449807,
+                                "fullName": "Petr Nedved",
+                                "link": "/api/v1/people/8449807"
+                            },
+                            "playerType": "DrewBy"
+                        }
+                    ],
+                    "result": {
+                        "event": "Penalty",
+                        "eventCode": "NYR12948",
+                        "eventTypeId": "PENALTY",
+                        "description": "Dwayne Roloson Slashing against Petr Nedved",
+                        "secondaryType": "Slashing",
+                        "penaltyMinutes": 2
+                    },
+                    "about": {
+                        "eventIdx": 14,
+                        "eventId": 12948,
+                        "period": 3,
+                        "periodType": "REGULAR",
+                        "ordinalNum": "3rd",
+                        "periodTime": "09:08",
+                        "periodTimeRemaining": "",
+                        "dateTime": "2004-02-05T00:30:00Z",
+                        "goals": {
+                            "away": 3,
+                            "home": 3
+                        }
+                    },
+                    "coordinates": {},
+                    "team": {
+                        "id": 30,
+                        "name": "Minnesota Wild",
+                        "link": "/api/v1/teams/30",
+                        "triCode": "MIN"
+                    }
+                },
+                {
+                    "players": [
+                        {
+                            "player": {
+                                "id": 8449807,
+                                "fullName": "Petr Nedved",
+                                "link": "/api/v1/people/8449807"
+                            },
+                            "playerType": "PenaltyOn"
+                        },
+                        {
+                            "player": {
+                                "id": 8460806,
+                                "fullName": "Dwayne Roloson",
+                                "link": "/api/v1/people/8460806"
+                            },
+                            "playerType": "DrewBy"
+                        }
+                    ],
+                    "result": {
+                        "event": "Penalty",
+                        "eventCode": "NYR22948",
+                        "eventTypeId": "PENALTY",
+                        "description": "Petr Nedved Interference - Goalkeeper against Dwayne Roloson",
+                        "secondaryType": "Interference - Goalkeeper",
+                        "penaltyMinutes": 2
+                    },
+                    "about": {
+                        "eventIdx": 15,
+                        "eventId": 22948,
+                        "period": 3,
+                        "periodType": "REGULAR",
+                        "ordinalNum": "3rd",
+                        "periodTime": "09:08",
+                        "periodTimeRemaining": "",
+                        "dateTime": "2004-02-05T00:30:00Z",
+                        "goals": {
+                            "away": 3,
+                            "home": 3
+                        }
+                    },
+                    "coordinates": {},
+                    "team": {
+                        "id": 3,
+                        "name": "New York Rangers",
+                        "link": "/api/v1/teams/3",
+                        "triCode": "NYR"
+                    }
+                },
+                {
+                    "players": [
+                        {
+                            "player": {
+                                "id": 8468483,
+                                "fullName": "Marian Gaborik",
+                                "link": "/api/v1/people/8468483"
+                            },
+                            "playerType": "Scorer",
+                            "seasonTotal": 6
+                        },
+                        {
+                            "player": {
+                                "id": 8466316,
+                                "fullName": "Antti Laaksonen",
+                                "link": "/api/v1/people/8466316"
+                            },
+                            "playerType": "Assist",
+                            "seasonTotal": 12
+                        },
+                        {
+                            "player": {
+                                "id": 8460806,
+                                "fullName": "Dwayne Roloson",
+                                "link": "/api/v1/people/8460806"
+                            },
+                            "playerType": "Assist",
+                            "seasonTotal": 1
+                        },
+                        {
+                            "player": {
+                                "id": 8456137,
+                                "fullName": "Mike Dunham",
+                                "link": "/api/v1/people/8456137"
+                            },
+                            "playerType": "Goalie"
+                        }
+                    ],
+                    "result": {
+                        "event": "Goal",
+                        "eventCode": "NYR3214",
+                        "eventTypeId": "GOAL",
+                        "description": "Marian Gaborik (6) Wrist Shot, assists: Antti Laaksonen (12), Dwayne Roloson (1)",
+                        "strength": {
+                            "code": "EVEN",
+                            "name": "Even"
+                        },
+                        "gameWinningGoal": true,
+                        "emptyNet": false
+                    },
+                    "about": {
+                        "eventIdx": 6,
+                        "eventId": 3214,
+                        "period": 3,
+                        "periodType": "REGULAR",
+                        "ordinalNum": "3rd",
+                        "periodTime": "13:34",
+                        "periodTimeRemaining": "",
+                        "dateTime": "2004-02-05T00:30:00Z",
+                        "goals": {
+                            "away": 4,
+                            "home": 3
+                        }
+                    },
+                    "coordinates": {},
+                    "team": {
+                        "id": 30,
+                        "name": "Minnesota Wild",
+                        "link": "/api/v1/teams/30",
+                        "triCode": "MIN"
+                    }
+                },
+                {
+                    "players": [
+                        {
+                            "player": {
+                                "id": 8460498,
+                                "fullName": "Jason Wiemer",
+                                "link": "/api/v1/people/8460498"
+                            },
+                            "playerType": "PenaltyOn"
+                        },
+                        {
+                            "player": {
+                                "id": 8458534,
+                                "fullName": "Martin Rucinsky",
+                                "link": "/api/v1/people/8458534"
+                            },
+                            "playerType": "DrewBy"
+                        }
+                    ],
+                    "result": {
+                        "event": "Penalty",
+                        "eventCode": "NYR13417",
+                        "eventTypeId": "PENALTY",
+                        "description": "Jason Wiemer Hooking against Martin Rucinsky",
+                        "secondaryType": "Hooking",
+                        "penaltyMinutes": 2
+                    },
+                    "about": {
+                        "eventIdx": 16,
+                        "eventId": 13417,
+                        "period": 3,
+                        "periodType": "REGULAR",
+                        "ordinalNum": "3rd",
+                        "periodTime": "16:57",
+                        "periodTimeRemaining": "",
+                        "dateTime": "2004-02-05T00:30:00Z",
+                        "goals": {
+                            "away": 4,
+                            "home": 3
+                        }
+                    },
+                    "coordinates": {},
+                    "team": {
+                        "id": 30,
+                        "name": "Minnesota Wild",
+                        "link": "/api/v1/teams/30",
+                        "triCode": "MIN"
+                    }
+                },
+                {
+                    "players": [
+                        {
+                            "player": {
+                                "id": 8458534,
+                                "fullName": "Martin Rucinsky",
+                                "link": "/api/v1/people/8458534"
+                            },
+                            "playerType": "PenaltyOn"
+                        },
+                        {
+                            "player": {
+                                "id": 8460498,
+                                "fullName": "Jason Wiemer",
+                                "link": "/api/v1/people/8460498"
+                            },
+                            "playerType": "DrewBy"
+                        }
+                    ],
+                    "result": {
+                        "event": "Penalty",
+                        "eventCode": "NYR23417",
+                        "eventTypeId": "PENALTY",
+                        "description": "Martin Rucinsky Slashing against Jason Wiemer",
+                        "secondaryType": "Slashing",
+                        "penaltyMinutes": 2
+                    },
+                    "about": {
+                        "eventIdx": 17,
+                        "eventId": 23417,
+                        "period": 3,
+                        "periodType": "REGULAR",
+                        "ordinalNum": "3rd",
+                        "periodTime": "16:57",
+                        "periodTimeRemaining": "",
+                        "dateTime": "2004-02-05T00:30:00Z",
+                        "goals": {
+                            "away": 4,
+                            "home": 3
+                        }
+                    },
+                    "coordinates": {},
+                    "team": {
+                        "id": 3,
+                        "name": "New York Rangers",
+                        "link": "/api/v1/teams/3",
+                        "triCode": "NYR"
+                    }
+                }
+            ],
+            "scoringPlays": [
+                0,
+                5,
+                6,
+                7,
+                8,
+                10,
+                15
+            ],
+            "penaltyPlays": [
+                1,
+                2,
+                3,
+                4,
+                9,
+                11,
+                12,
+                13,
+                14,
+                16,
+                17
+            ],
+            "playsByPeriod": [
+                {
+                    "startIndex": 0,
+                    "plays": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    "endIndex": 2
+                },
+                {
+                    "startIndex": 4,
+                    "plays": [
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                    ],
+                    "endIndex": 8
+                },
+                {
+                    "startIndex": 10,
+                    "plays": [
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17
+                    ],
+                    "endIndex": 17
+                }
+            ],
+            "currentPlay": {
+                "players": [
+                    {
+                        "player": {
+                            "id": 8458534,
+                            "fullName": "Martin Rucinsky",
+                            "link": "/api/v1/people/8458534"
+                        },
+                        "playerType": "PenaltyOn"
+                    },
+                    {
+                        "player": {
+                            "id": 8460498,
+                            "fullName": "Jason Wiemer",
+                            "link": "/api/v1/people/8460498"
+                        },
+                        "playerType": "DrewBy"
+                    }
+                ],
+                "result": {
+                    "event": "Penalty",
+                    "eventCode": "NYR23417",
+                    "eventTypeId": "PENALTY",
+                    "description": "Martin Rucinsky Slashing against Jason Wiemer",
+                    "secondaryType": "Slashing",
+                    "penaltyMinutes": 2
+                },
+                "about": {
+                    "eventIdx": 17,
+                    "eventId": 23417,
+                    "period": 3,
+                    "periodType": "REGULAR",
+                    "ordinalNum": "3rd",
+                    "periodTime": "16:57",
+                    "periodTimeRemaining": "",
+                    "dateTime": "2004-02-05T00:30:00Z",
+                    "goals": {
+                        "away": 4,
+                        "home": 3
+                    }
+                },
+                "coordinates": {},
+                "team": {
+                    "id": 3,
+                    "name": "New York Rangers",
+                    "link": "/api/v1/teams/3",
+                    "triCode": "NYR"
+                }
+            }
+        },
+        "linescore": {
+            "currentPeriod": 3,
+            "currentPeriodOrdinal": "3rd",
+            "currentPeriodTimeRemaining": "Final",
+            "periods": [
+                {
+                    "periodType": "REGULAR",
+                    "num": 1,
+                    "ordinalNum": "1st",
+                    "home": {
+                        "goals": 0,
+                        "shotsOnGoal": 9,
+                        "rinkSide": "right"
+                    },
+                    "away": {
+                        "goals": 1,
+                        "shotsOnGoal": 8,
+                        "rinkSide": "left"
+                    }
+                },
+                {
+                    "periodType": "REGULAR",
+                    "num": 2,
+                    "ordinalNum": "2nd",
+                    "home": {
+                        "goals": 3,
+                        "shotsOnGoal": 14,
+                        "rinkSide": "left"
+                    },
+                    "away": {
+                        "goals": 1,
+                        "shotsOnGoal": 8,
+                        "rinkSide": "right"
+                    }
+                },
+                {
+                    "periodType": "REGULAR",
+                    "num": 3,
+                    "ordinalNum": "3rd",
+                    "home": {
+                        "goals": 0,
+                        "shotsOnGoal": 5,
+                        "rinkSide": "right"
+                    },
+                    "away": {
+                        "goals": 2,
+                        "shotsOnGoal": 6,
+                        "rinkSide": "left"
+                    }
+                }
+            ],
+            "shootoutInfo": {
+                "away": {
+                    "scores": 0,
+                    "attempts": 0
+                },
+                "home": {
+                    "scores": 0,
+                    "attempts": 0
+                }
+            },
+            "teams": {
+                "home": {
+                    "team": {
+                        "id": 3,
+                        "name": "New York Rangers",
+                        "link": "/api/v1/teams/3",
+                        "abbreviation": "NYR",
+                        "triCode": "NYR"
+                    },
+                    "goals": 3,
+                    "shotsOnGoal": 28,
+                    "goaliePulled": false,
+                    "numSkaters": 0,
+                    "powerPlay": false
+                },
+                "away": {
+                    "team": {
+                        "id": 30,
+                        "name": "Minnesota Wild",
+                        "link": "/api/v1/teams/30",
+                        "abbreviation": "MIN",
+                        "triCode": "MIN"
+                    },
+                    "goals": 4,
+                    "shotsOnGoal": 22,
+                    "goaliePulled": false,
+                    "numSkaters": 0,
+                    "powerPlay": false
+                }
+            },
+            "powerPlayStrength": "Even",
+            "hasShootout": false,
+            "intermissionInfo": {
+                "intermissionTimeRemaining": 0,
+                "intermissionTimeElapsed": 0,
+                "inIntermission": false
+            }
+        },
+        "boxscore": {
+            "teams": {
+                "away": {
+                    "team": {
+                        "id": 30,
+                        "name": "Minnesota Wild",
+                        "link": "/api/v1/teams/30",
+                        "abbreviation": "MIN",
+                        "triCode": "MIN"
+                    },
+                    "teamStats": {
+                        "teamSkaterStats": {
+                            "goals": 4,
+                            "pim": 10,
+                            "shots": 22,
+                            "powerPlayPercentage": "66.7",
+                            "powerPlayGoals": 2.0,
+                            "powerPlayOpportunities": 3.0,
+                            "blocked": 24,
+                            "takeaways": 7,
+                            "giveaways": 4,
+                            "hits": 6
+                        }
+                    },
+                    "players": {
+                        "ID8468513": {
+                            "person": {
+                                "id": 8468513,
+                                "fullName": "Nick Schultz",
+                                "link": "/api/v1/people/8468513",
+                                "shootsCatches": "L",
+                                "rosterStatus": "Y"
+                            },
+                            "jerseyNumber": "55",
+                            "position": {
+                                "code": "D",
+                                "name": "Defenseman",
+                                "type": "Defenseman",
+                                "abbreviation": "D"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "25:59",
+                                    "assists": 0,
+                                    "goals": 0,
+                                    "shots": 2,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 0,
+                                    "faceOffWins": 0,
+                                    "faceoffTaken": 0,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": 1,
+                                    "evenTimeOnIce": "22:48",
+                                    "powerPlayTimeOnIce": "1:07",
+                                    "shortHandedTimeOnIce": "2:04"
+                                }
+                            }
+                        },
+                        "ID8470613": {
+                            "person": {
+                                "id": 8470613,
+                                "fullName": "Brent Burns",
+                                "link": "/api/v1/people/8470613",
+                                "shootsCatches": "R",
+                                "rosterStatus": "Y"
+                            },
+                            "jerseyNumber": "88",
+                            "position": {
+                                "code": "N/A",
+                                "name": "Unknown",
+                                "type": "Unknown",
+                                "abbreviation": "N/A"
+                            },
+                            "stats": {}
+                        },
+                        "ID8462061": {
+                            "person": {
+                                "id": 8462061,
+                                "fullName": "Marc Chouinard",
+                                "link": "/api/v1/people/8462061",
+                                "shootsCatches": "R",
+                                "rosterStatus": "N"
+                            },
+                            "jerseyNumber": "32",
+                            "position": {
+                                "code": "C",
+                                "name": "Center",
+                                "type": "Forward",
+                                "abbreviation": "C"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "14:04",
+                                    "assists": 0,
+                                    "goals": 0,
+                                    "shots": 2,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 0,
+                                    "faceOffPct": 63.16,
+                                    "faceOffWins": 12,
+                                    "faceoffTaken": 19,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": -1,
+                                    "evenTimeOnIce": "13:57",
+                                    "powerPlayTimeOnIce": "0:07",
+                                    "shortHandedTimeOnIce": "0:00"
+                                }
+                            }
+                        },
+                        "ID8459596": {
+                            "person": {
+                                "id": 8459596,
+                                "fullName": "Andrew Brunette",
+                                "link": "/api/v1/people/8459596",
+                                "shootsCatches": "L",
+                                "rosterStatus": "Y"
+                            },
+                            "jerseyNumber": "15",
+                            "position": {
+                                "code": "L",
+                                "name": "Left Wing",
+                                "type": "Forward",
+                                "abbreviation": "LW"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "13:34",
+                                    "assists": 1,
+                                    "goals": 0,
+                                    "shots": 0,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 1,
+                                    "penaltyMinutes": 0,
+                                    "faceOffPct": 50.0,
+                                    "faceOffWins": 1,
+                                    "faceoffTaken": 2,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": -1,
+                                    "evenTimeOnIce": "11:00",
+                                    "powerPlayTimeOnIce": "2:34",
+                                    "shortHandedTimeOnIce": "0:00"
+                                }
+                            }
+                        },
+                        "ID8465185": {
+                            "person": {
+                                "id": 8465185,
+                                "fullName": "Willie Mitchell",
+                                "link": "/api/v1/people/8465185",
+                                "shootsCatches": "L",
+                                "rosterStatus": "I"
+                            },
+                            "jerseyNumber": "2",
+                            "position": {
+                                "code": "D",
+                                "name": "Defenseman",
+                                "type": "Defenseman",
+                                "abbreviation": "D"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "27:56",
+                                    "assists": 1,
+                                    "goals": 0,
+                                    "shots": 1,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 0,
+                                    "faceOffWins": 0,
+                                    "faceoffTaken": 0,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": 0,
+                                    "evenTimeOnIce": "25:42",
+                                    "powerPlayTimeOnIce": "0:00",
+                                    "shortHandedTimeOnIce": "2:14"
+                                }
+                            }
+                        },
+                        "ID8458991": {
+                            "person": {
+                                "id": 8458991,
+                                "fullName": "Sergei Zholtok",
+                                "link": "/api/v1/people/8458991",
+                                "shootsCatches": "R",
+                                "rosterStatus": "Y"
+                            },
+                            "jerseyNumber": "33",
+                            "position": {
+                                "code": "C",
+                                "name": "Center",
+                                "type": "Forward",
+                                "abbreviation": "C"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "13:23",
+                                    "assists": 0,
+                                    "goals": 2,
+                                    "shots": 2,
+                                    "powerPlayGoals": 2,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 0,
+                                    "faceOffPct": 33.33,
+                                    "faceOffWins": 4,
+                                    "faceoffTaken": 12,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": -1,
+                                    "evenTimeOnIce": "10:56",
+                                    "powerPlayTimeOnIce": "2:27",
+                                    "shortHandedTimeOnIce": "0:00"
+                                }
+                            }
+                        },
+                        "ID8467342": {
+                            "person": {
+                                "id": 8467342,
+                                "fullName": "Eric Chouinard",
+                                "link": "/api/v1/people/8467342",
+                                "shootsCatches": "L",
+                                "rosterStatus": "N"
+                            },
+                            "jerseyNumber": "15",
+                            "position": {
+                                "code": "N/A",
+                                "name": "Unknown",
+                                "type": "Unknown",
+                                "abbreviation": "N/A"
+                            },
+                            "stats": {}
+                        },
+                        "ID8459423": {
+                            "person": {
+                                "id": 8459423,
+                                "fullName": "Alexandre Daigle",
+                                "link": "/api/v1/people/8459423",
+                                "shootsCatches": "L",
+                                "rosterStatus": "N"
+                            },
+                            "jerseyNumber": "9",
+                            "position": {
+                                "code": "R",
+                                "name": "Right Wing",
+                                "type": "Forward",
+                                "abbreviation": "RW"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "13:59",
+                                    "assists": 1,
+                                    "goals": 0,
+                                    "shots": 0,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 1,
+                                    "penaltyMinutes": 0,
+                                    "faceOffWins": 0,
+                                    "faceoffTaken": 0,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": -1,
+                                    "evenTimeOnIce": "11:25",
+                                    "powerPlayTimeOnIce": "2:34",
+                                    "shortHandedTimeOnIce": "0:00"
+                                }
+                            }
+                        },
+                        "ID8466393": {
+                            "person": {
+                                "id": 8466393,
+                                "fullName": "Pascal Dupuis",
+                                "link": "/api/v1/people/8466393",
+                                "shootsCatches": "L",
+                                "rosterStatus": "I"
+                            },
+                            "jerseyNumber": "11",
+                            "position": {
+                                "code": "R",
+                                "name": "Right Wing",
+                                "type": "Forward",
+                                "abbreviation": "RW"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "14:14",
+                                    "assists": 0,
+                                    "goals": 0,
+                                    "shots": 2,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 0,
+                                    "faceOffPct": 66.67,
+                                    "faceOffWins": 2,
+                                    "faceoffTaken": 3,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": -1,
+                                    "evenTimeOnIce": "13:26",
+                                    "powerPlayTimeOnIce": "0:48",
+                                    "shortHandedTimeOnIce": "0:00"
+                                }
+                            }
+                        },
+                        "ID8457222": {
+                            "person": {
+                                "id": 8457222,
+                                "fullName": "Jason Marshall",
+                                "link": "/api/v1/people/8457222",
+                                "shootsCatches": "R",
+                                "rosterStatus": "Y"
+                            },
+                            "jerseyNumber": "23",
+                            "position": {
+                                "code": "D",
+                                "name": "Defenseman",
+                                "type": "Defenseman",
+                                "abbreviation": "D"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "9:53",
+                                    "assists": 2,
+                                    "goals": 0,
+                                    "shots": 1,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 2,
+                                    "penaltyMinutes": 2,
+                                    "faceOffWins": 0,
+                                    "faceoffTaken": 0,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": 0,
+                                    "evenTimeOnIce": "6:59",
+                                    "powerPlayTimeOnIce": "2:27",
+                                    "shortHandedTimeOnIce": "0:27"
+                                }
+                            }
+                        },
+                        "ID8468483": {
+                            "person": {
+                                "id": 8468483,
+                                "fullName": "Marian Gaborik",
+                                "link": "/api/v1/people/8468483",
+                                "shootsCatches": "L",
+                                "rosterStatus": "Y"
+                            },
+                            "jerseyNumber": "10",
+                            "position": {
+                                "code": "R",
+                                "name": "Right Wing",
+                                "type": "Forward",
+                                "abbreviation": "RW"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "13:53",
+                                    "assists": 1,
+                                    "goals": 1,
+                                    "shots": 3,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 0,
+                                    "faceOffWins": 0,
+                                    "faceoffTaken": 0,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": 1,
+                                    "evenTimeOnIce": "12:53",
+                                    "powerPlayTimeOnIce": "1:00",
+                                    "shortHandedTimeOnIce": "0:00"
+                                }
+                            }
+                        },
+                        "ID8456100": {
+                            "person": {
+                                "id": 8456100,
+                                "fullName": "Jim Dowd",
+                                "link": "/api/v1/people/8456100",
+                                "shootsCatches": "R",
+                                "rosterStatus": "N"
+                            },
+                            "jerseyNumber": "34",
+                            "position": {
+                                "code": "C",
+                                "name": "Center",
+                                "type": "Forward",
+                                "abbreviation": "C"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "12:39",
+                                    "assists": 0,
+                                    "goals": 0,
+                                    "shots": 0,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 0,
+                                    "faceOffPct": 55.56,
+                                    "faceOffWins": 5,
+                                    "faceoffTaken": 9,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": 0,
+                                    "evenTimeOnIce": "10:05",
+                                    "powerPlayTimeOnIce": "0:53",
+                                    "shortHandedTimeOnIce": "1:41"
+                                }
+                            }
+                        },
+                        "ID8467392": {
+                            "person": {
+                                "id": 8467392,
+                                "fullName": "Alex Henry",
+                                "link": "/api/v1/people/8467392",
+                                "shootsCatches": "L",
+                                "rosterStatus": "N"
+                            },
+                            "jerseyNumber": "36",
+                            "position": {
+                                "code": "D",
+                                "name": "Defenseman",
+                                "type": "Defenseman",
+                                "abbreviation": "D"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "14:55",
+                                    "assists": 0,
+                                    "goals": 0,
+                                    "shots": 0,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 0,
+                                    "faceOffWins": 0,
+                                    "faceoffTaken": 0,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": -1,
+                                    "evenTimeOnIce": "14:19",
+                                    "powerPlayTimeOnIce": "0:00",
+                                    "shortHandedTimeOnIce": "0:36"
+                                }
+                            }
+                        },
+                        "ID8455653": {
+                            "person": {
+                                "id": 8455653,
+                                "fullName": "Brad Bombardir",
+                                "link": "/api/v1/people/8455653",
+                                "shootsCatches": "L",
+                                "rosterStatus": "Y"
+                            },
+                            "jerseyNumber": "5",
+                            "position": {
+                                "code": "D",
+                                "name": "Defenseman",
+                                "type": "Defenseman",
+                                "abbreviation": "D"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "13:35",
+                                    "assists": 0,
+                                    "goals": 0,
+                                    "shots": 1,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 0,
+                                    "faceOffWins": 0,
+                                    "faceoffTaken": 0,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": -1,
+                                    "evenTimeOnIce": "11:49",
+                                    "powerPlayTimeOnIce": "0:00",
+                                    "shortHandedTimeOnIce": "1:46"
+                                }
+                            }
+                        },
+                        "ID8460806": {
+                            "person": {
+                                "id": 8460806,
+                                "fullName": "Dwayne Roloson",
+                                "link": "/api/v1/people/8460806",
+                                "shootsCatches": "L",
+                                "rosterStatus": "Y"
+                            },
+                            "jerseyNumber": "30",
+                            "position": {
+                                "code": "G",
+                                "name": "Goalie",
+                                "type": "Goalie",
+                                "abbreviation": "G"
+                            },
+                            "stats": {
+                                "goalieStats": {
+                                    "timeOnIce": "59:57",
+                                    "assists": 1,
+                                    "goals": 0,
+                                    "pim": 2,
+                                    "shots": 28,
+                                    "saves": 25,
+                                    "powerPlaySaves": 2,
+                                    "shortHandedSaves": 0,
+                                    "evenSaves": 23,
+                                    "shortHandedShotsAgainst": 0,
+                                    "evenShotsAgainst": 26,
+                                    "powerPlayShotsAgainst": 2,
+                                    "decision": "W",
+                                    "savePercentage": 89.28571428571429,
+                                    "powerPlaySavePercentage": 100.0,
+                                    "evenStrengthSavePercentage": 88.46153846153845
+                                }
+                            }
+                        },
+                        "ID8452285": {
+                            "person": {
+                                "id": 8452285,
+                                "fullName": "Wes Walz",
+                                "link": "/api/v1/people/8452285",
+                                "shootsCatches": "R",
+                                "rosterStatus": "N"
+                            },
+                            "jerseyNumber": "37",
+                            "position": {
+                                "code": "C",
+                                "name": "Center",
+                                "type": "Forward",
+                                "abbreviation": "C"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "19:50",
+                                    "assists": 0,
+                                    "goals": 0,
+                                    "shots": 1,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 0,
+                                    "faceOffPct": 33.33,
+                                    "faceOffWins": 4,
+                                    "faceoffTaken": 12,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": 1,
+                                    "evenTimeOnIce": "17:31",
+                                    "powerPlayTimeOnIce": "0:00",
+                                    "shortHandedTimeOnIce": "2:19"
+                                }
+                            }
+                        },
+                        "ID8470153": {
+                            "person": {
+                                "id": 8470153,
+                                "fullName": "Pierre-Marc Bouchard",
+                                "link": "/api/v1/people/8470153",
+                                "shootsCatches": "L",
+                                "rosterStatus": "N"
+                            },
+                            "jerseyNumber": "96",
+                            "position": {
+                                "code": "N/A",
+                                "name": "Unknown",
+                                "type": "Unknown",
+                                "abbreviation": "N/A"
+                            },
+                            "stats": {}
+                        },
+                        "ID8460524": {
+                            "person": {
+                                "id": 8460524,
+                                "fullName": "Matt Johnson",
+                                "link": "/api/v1/people/8460524",
+                                "shootsCatches": "L",
+                                "rosterStatus": "N"
+                            },
+                            "jerseyNumber": "12",
+                            "position": {
+                                "code": "L",
+                                "name": "Left Wing",
+                                "type": "Forward",
+                                "abbreviation": "LW"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "5:22",
+                                    "assists": 0,
+                                    "goals": 0,
+                                    "shots": 0,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 4,
+                                    "faceOffWins": 0,
+                                    "faceoffTaken": 0,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": 0,
+                                    "evenTimeOnIce": "5:17",
+                                    "powerPlayTimeOnIce": "0:05",
+                                    "shortHandedTimeOnIce": "0:00"
+                                }
+                            }
+                        },
+                        "ID8460541": {
+                            "person": {
+                                "id": 8460541,
+                                "fullName": "Richard Park",
+                                "link": "/api/v1/people/8460541",
+                                "shootsCatches": "R",
+                                "rosterStatus": "Y"
+                            },
+                            "jerseyNumber": "18",
+                            "position": {
+                                "code": "R",
+                                "name": "Right Wing",
+                                "type": "Forward",
+                                "abbreviation": "RW"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "17:08",
+                                    "assists": 0,
+                                    "goals": 0,
+                                    "shots": 0,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 0,
+                                    "faceOffPct": 0.0,
+                                    "faceOffWins": 0,
+                                    "faceoffTaken": 1,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": 0,
+                                    "evenTimeOnIce": "14:13",
+                                    "powerPlayTimeOnIce": "1:14",
+                                    "shortHandedTimeOnIce": "1:41"
+                                }
+                            }
+                        },
+                        "ID8462225": {
+                            "person": {
+                                "id": 8462225,
+                                "fullName": "Filip Kuba",
+                                "link": "/api/v1/people/8462225",
+                                "shootsCatches": "L",
+                                "rosterStatus": "N"
+                            },
+                            "jerseyNumber": "17",
+                            "position": {
+                                "code": "D",
+                                "name": "Defenseman",
+                                "type": "Defenseman",
+                                "abbreviation": "D"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "24:09",
+                                    "assists": 0,
+                                    "goals": 0,
+                                    "shots": 2,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 0,
+                                    "faceOffWins": 0,
+                                    "faceoffTaken": 0,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": -1,
+                                    "evenTimeOnIce": "23:16",
+                                    "powerPlayTimeOnIce": "0:00",
+                                    "shortHandedTimeOnIce": "0:53"
+                                }
+                            }
+                        },
+                        "ID8460498": {
+                            "person": {
+                                "id": 8460498,
+                                "fullName": "Jason Wiemer",
+                                "link": "/api/v1/people/8460498",
+                                "shootsCatches": "L",
+                                "rosterStatus": "N"
+                            },
+                            "jerseyNumber": "28",
+                            "position": {
+                                "code": "C",
+                                "name": "Center",
+                                "type": "Forward",
+                                "abbreviation": "C"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "15:57",
+                                    "assists": 0,
+                                    "goals": 0,
+                                    "shots": 2,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 2,
+                                    "faceOffPct": 100.0,
+                                    "faceOffWins": 2,
+                                    "faceoffTaken": 2,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": -1,
+                                    "evenTimeOnIce": "13:23",
+                                    "powerPlayTimeOnIce": "2:34",
+                                    "shortHandedTimeOnIce": "0:00"
+                                }
+                            }
+                        },
+                        "ID8466316": {
+                            "person": {
+                                "id": 8466316,
+                                "fullName": "Antti Laaksonen",
+                                "link": "/api/v1/people/8466316",
+                                "shootsCatches": "L",
+                                "rosterStatus": "N"
+                            },
+                            "jerseyNumber": "24",
+                            "position": {
+                                "code": "L",
+                                "name": "Left Wing",
+                                "type": "Forward",
+                                "abbreviation": "LW"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "19:15",
+                                    "assists": 1,
+                                    "goals": 1,
+                                    "shots": 3,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 0,
+                                    "faceOffPct": 42.86,
+                                    "faceOffWins": 3,
+                                    "faceoffTaken": 7,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": 1,
+                                    "evenTimeOnIce": "16:56",
+                                    "powerPlayTimeOnIce": "0:00",
+                                    "shortHandedTimeOnIce": "2:19"
+                                }
+                            }
+                        }
+                    },
+                    "goalies": [
+                        8460806
+                    ],
+                    "skaters": [
+                        8465185,
+                        8455653,
+                        8459423,
+                        8468483,
+                        8466393,
+                        8460524,
+                        8459596,
+                        8462225,
+                        8460541,
+                        8457222,
+                        8466316,
+                        8460498,
+                        8462061,
+                        8458991,
+                        8456100,
+                        8467392,
+                        8452285,
+                        8468513,
+                        8470613,
+                        8467342,
+                        8470153
+                    ],
+                    "onIce": [],
+                    "onIcePlus": [],
+                    "scratches": [
+                        8470613,
+                        8467342,
+                        8470153
+                    ],
+                    "penaltyBox": [],
+                    "coaches": [
+                        {
+                            "person": {
+                                "fullName": "Jacques Lemaire",
+                                "link": "/api/v1/people/null"
+                            },
+                            "position": {
+                                "code": "HC",
+                                "name": "Head Coach",
+                                "type": "Head Coach",
+                                "abbreviation": "Head Coach"
+                            }
+                        }
+                    ]
+                },
+                "home": {
+                    "team": {
+                        "id": 3,
+                        "name": "New York Rangers",
+                        "link": "/api/v1/teams/3",
+                        "abbreviation": "NYR",
+                        "triCode": "NYR"
+                    },
+                    "teamStats": {
+                        "teamSkaterStats": {
+                            "goals": 3,
+                            "pim": 12,
+                            "shots": 28,
+                            "powerPlayPercentage": "0.0",
+                            "powerPlayGoals": 0.0,
+                            "powerPlayOpportunities": 2.0,
+                            "blocked": 14,
+                            "takeaways": 4,
+                            "giveaways": 15,
+                            "hits": 16
+                        }
+                    },
+                    "players": {
+                        "ID8469528": {
+                            "person": {
+                                "id": 8469528,
+                                "fullName": "Garth Murray",
+                                "link": "/api/v1/people/8469528",
+                                "shootsCatches": "L",
+                                "rosterStatus": "N"
+                            },
+                            "jerseyNumber": "10",
+                            "position": {
+                                "code": "C",
+                                "name": "Center",
+                                "type": "Forward",
+                                "abbreviation": "C"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "2:39",
+                                    "assists": 0,
+                                    "goals": 0,
+                                    "shots": 0,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 2,
+                                    "faceOffWins": 0,
+                                    "faceoffTaken": 0,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": 0,
+                                    "evenTimeOnIce": "2:39",
+                                    "powerPlayTimeOnIce": "0:00",
+                                    "shortHandedTimeOnIce": "0:00"
+                                }
+                            }
+                        },
+                        "ID8447958": {
+                            "person": {
+                                "id": 8447958,
+                                "fullName": "Bobby Holik",
+                                "link": "/api/v1/people/8447958",
+                                "shootsCatches": "R",
+                                "rosterStatus": "Y"
+                            },
+                            "jerseyNumber": "16",
+                            "position": {
+                                "code": "C",
+                                "name": "Center",
+                                "type": "Forward",
+                                "abbreviation": "C"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "23:27",
+                                    "assists": 2,
+                                    "goals": 0,
+                                    "shots": 2,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 0,
+                                    "faceOffPct": 42.31,
+                                    "faceOffWins": 11,
+                                    "faceoffTaken": 26,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": 2,
+                                    "evenTimeOnIce": "19:51",
+                                    "powerPlayTimeOnIce": "2:38",
+                                    "shortHandedTimeOnIce": "0:58"
+                                }
+                            }
+                        },
+                        "ID8458031": {
+                            "person": {
+                                "id": 8458031,
+                                "fullName": "Chris Simon",
+                                "link": "/api/v1/people/8458031",
+                                "shootsCatches": "L",
+                                "rosterStatus": "Y"
+                            },
+                            "jerseyNumber": "17",
+                            "position": {
+                                "code": "L",
+                                "name": "Left Wing",
+                                "type": "Forward",
+                                "abbreviation": "LW"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "11:23",
+                                    "assists": 0,
+                                    "goals": 0,
+                                    "shots": 1,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 0,
+                                    "faceOffWins": 0,
+                                    "faceoffTaken": 0,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": 0,
+                                    "evenTimeOnIce": "11:23",
+                                    "powerPlayTimeOnIce": "0:00",
+                                    "shortHandedTimeOnIce": "0:00"
+                                }
+                            }
+                        },
+                        "ID8467882": {
+                            "person": {
+                                "id": 8467882,
+                                "fullName": "Jamie Lundmark",
+                                "link": "/api/v1/people/8467882",
+                                "shootsCatches": "R",
+                                "rosterStatus": "N"
+                            },
+                            "jerseyNumber": "21",
+                            "position": {
+                                "code": "C",
+                                "name": "Center",
+                                "type": "Forward",
+                                "abbreviation": "C"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "4:59",
+                                    "assists": 0,
+                                    "goals": 0,
+                                    "shots": 0,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 0,
+                                    "faceOffPct": 0.0,
+                                    "faceOffWins": 0,
+                                    "faceoffTaken": 2,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": 0,
+                                    "evenTimeOnIce": "2:55",
+                                    "powerPlayTimeOnIce": "0:00",
+                                    "shortHandedTimeOnIce": "2:04"
+                                }
+                            }
+                        },
+                        "ID8465012": {
+                            "person": {
+                                "id": 8465012,
+                                "fullName": "Tom Poti",
+                                "link": "/api/v1/people/8465012",
+                                "shootsCatches": "L",
+                                "rosterStatus": "Y"
+                            },
+                            "jerseyNumber": "3",
+                            "position": {
+                                "code": "N/A",
+                                "name": "Unknown",
+                                "type": "Unknown",
+                                "abbreviation": "N/A"
+                            },
+                            "stats": {}
+                        },
+                        "ID8459065": {
+                            "person": {
+                                "id": 8459065,
+                                "fullName": "Joel Bouchard",
+                                "link": "/api/v1/people/8459065",
+                                "shootsCatches": "L",
+                                "rosterStatus": "I"
+                            },
+                            "jerseyNumber": "74",
+                            "position": {
+                                "code": "D",
+                                "name": "Defenseman",
+                                "type": "Defenseman",
+                                "abbreviation": "D"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "20:38",
+                                    "assists": 0,
+                                    "goals": 0,
+                                    "shots": 3,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 0,
+                                    "faceOffWins": 0,
+                                    "faceoffTaken": 0,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": 0,
+                                    "evenTimeOnIce": "18:17",
+                                    "powerPlayTimeOnIce": "0:45",
+                                    "shortHandedTimeOnIce": "1:36"
+                                }
+                            }
+                        },
+                        "ID8449807": {
+                            "person": {
+                                "id": 8449807,
+                                "fullName": "Petr Nedved",
+                                "link": "/api/v1/people/8449807",
+                                "shootsCatches": "L",
+                                "rosterStatus": "N"
+                            },
+                            "jerseyNumber": "93",
+                            "position": {
+                                "code": "C",
+                                "name": "Center",
+                                "type": "Forward",
+                                "abbreviation": "C"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "20:02",
+                                    "assists": 0,
+                                    "goals": 1,
+                                    "shots": 3,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 4,
+                                    "faceOffPct": 63.16,
+                                    "faceOffWins": 12,
+                                    "faceoffTaken": 19,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": -1,
+                                    "evenTimeOnIce": "17:12",
+                                    "powerPlayTimeOnIce": "1:22",
+                                    "shortHandedTimeOnIce": "1:28"
+                                }
+                            }
+                        },
+                        "ID8462081": {
+                            "person": {
+                                "id": 8462081,
+                                "fullName": "Jan Hlavac",
+                                "link": "/api/v1/people/8462081",
+                                "shootsCatches": "L",
+                                "rosterStatus": "Y"
+                            },
+                            "jerseyNumber": "37",
+                            "position": {
+                                "code": "L",
+                                "name": "Left Wing",
+                                "type": "Forward",
+                                "abbreviation": "LW"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "16:18",
+                                    "assists": 0,
+                                    "goals": 0,
+                                    "shots": 4,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 0,
+                                    "faceOffWins": 0,
+                                    "faceoffTaken": 0,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": -1,
+                                    "evenTimeOnIce": "15:00",
+                                    "powerPlayTimeOnIce": "1:18",
+                                    "shortHandedTimeOnIce": "0:00"
+                                }
+                            }
+                        },
+                        "ID8468184": {
+                            "person": {
+                                "id": 8468184,
+                                "fullName": "Lawrence Nycholat",
+                                "link": "/api/v1/people/8468184",
+                                "shootsCatches": "L",
+                                "rosterStatus": "N"
+                            },
+                            "jerseyNumber": "28",
+                            "position": {
+                                "code": "D",
+                                "name": "Defenseman",
+                                "type": "Defenseman",
+                                "abbreviation": "D"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "21:56",
+                                    "assists": 0,
+                                    "goals": 0,
+                                    "shots": 1,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 2,
+                                    "faceOffWins": 0,
+                                    "faceoffTaken": 0,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": -1,
+                                    "evenTimeOnIce": "21:05",
+                                    "powerPlayTimeOnIce": "0:00",
+                                    "shortHandedTimeOnIce": "0:51"
+                                }
+                            }
+                        },
+                        "ID8458546": {
+                            "person": {
+                                "id": 8458546,
+                                "fullName": "Jamie Pushor",
+                                "link": "/api/v1/people/8458546",
+                                "shootsCatches": "R",
+                                "rosterStatus": "N"
+                            },
+                            "jerseyNumber": "24",
+                            "position": {
+                                "code": "D",
+                                "name": "Defenseman",
+                                "type": "Defenseman",
+                                "abbreviation": "D"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "13:08",
+                                    "assists": 0,
+                                    "goals": 0,
+                                    "shots": 0,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 0,
+                                    "faceOffWins": 0,
+                                    "faceoffTaken": 0,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": 2,
+                                    "evenTimeOnIce": "12:01",
+                                    "powerPlayTimeOnIce": "0:00",
+                                    "shortHandedTimeOnIce": "1:07"
+                                }
+                            }
+                        },
+                        "ID8459614": {
+                            "person": {
+                                "id": 8459614,
+                                "fullName": "Paul Healey",
+                                "link": "/api/v1/people/8459614",
+                                "shootsCatches": "R",
+                                "rosterStatus": "N"
+                            },
+                            "jerseyNumber": "25",
+                            "position": {
+                                "code": "N/A",
+                                "name": "Unknown",
+                                "type": "Unknown",
+                                "abbreviation": "N/A"
+                            },
+                            "stats": {}
+                        },
+                        "ID8458534": {
+                            "person": {
+                                "id": 8458534,
+                                "fullName": "Martin Rucinsky",
+                                "link": "/api/v1/people/8458534",
+                                "shootsCatches": "L",
+                                "rosterStatus": "Y"
+                            },
+                            "jerseyNumber": "26",
+                            "position": {
+                                "code": "L",
+                                "name": "Left Wing",
+                                "type": "Forward",
+                                "abbreviation": "LW"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "21:55",
+                                    "assists": 2,
+                                    "goals": 0,
+                                    "shots": 2,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 2,
+                                    "faceOffWins": 0,
+                                    "faceoffTaken": 0,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": 2,
+                                    "evenTimeOnIce": "18:46",
+                                    "powerPlayTimeOnIce": "2:42",
+                                    "shortHandedTimeOnIce": "0:27"
+                                }
+                            }
+                        },
+                        "ID8458963": {
+                            "person": {
+                                "id": 8458963,
+                                "fullName": "Boris Mironov",
+                                "link": "/api/v1/people/8458963",
+                                "shootsCatches": "R",
+                                "rosterStatus": "Y"
+                            },
+                            "jerseyNumber": "29",
+                            "position": {
+                                "code": "D",
+                                "name": "Defenseman",
+                                "type": "Defenseman",
+                                "abbreviation": "D"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "20:43",
+                                    "assists": 1,
+                                    "goals": 0,
+                                    "shots": 0,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 0,
+                                    "faceOffWins": 0,
+                                    "faceoffTaken": 0,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": 0,
+                                    "evenTimeOnIce": "18:19",
+                                    "powerPlayTimeOnIce": "0:48",
+                                    "shortHandedTimeOnIce": "1:36"
+                                }
+                            }
+                        },
+                        "ID8456137": {
+                            "person": {
+                                "id": 8456137,
+                                "fullName": "Mike Dunham",
+                                "link": "/api/v1/people/8456137",
+                                "shootsCatches": "L",
+                                "rosterStatus": "Y"
+                            },
+                            "jerseyNumber": "30",
+                            "position": {
+                                "code": "G",
+                                "name": "Goalie",
+                                "type": "Goalie",
+                                "abbreviation": "G"
+                            },
+                            "stats": {
+                                "goalieStats": {
+                                    "timeOnIce": "58:56",
+                                    "assists": 0,
+                                    "goals": 0,
+                                    "pim": 0,
+                                    "shots": 22,
+                                    "saves": 18,
+                                    "powerPlaySaves": 2,
+                                    "shortHandedSaves": 1,
+                                    "evenSaves": 15,
+                                    "shortHandedShotsAgainst": 1,
+                                    "evenShotsAgainst": 17,
+                                    "powerPlayShotsAgainst": 4,
+                                    "decision": "L",
+                                    "savePercentage": 81.81818181818183,
+                                    "powerPlaySavePercentage": 50.0,
+                                    "shortHandedSavePercentage": 100.0,
+                                    "evenStrengthSavePercentage": 88.23529411764706
+                                }
+                            }
+                        },
+                        "ID8459019": {
+                            "person": {
+                                "id": 8459019,
+                                "fullName": "Matthew Barnaby",
+                                "link": "/api/v1/people/8459019",
+                                "shootsCatches": "L",
+                                "rosterStatus": "I"
+                            },
+                            "jerseyNumber": "36",
+                            "position": {
+                                "code": "R",
+                                "name": "Right Wing",
+                                "type": "Forward",
+                                "abbreviation": "RW"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "10:39",
+                                    "assists": 0,
+                                    "goals": 0,
+                                    "shots": 2,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 2,
+                                    "faceOffWins": 0,
+                                    "faceoffTaken": 0,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": 0,
+                                    "evenTimeOnIce": "10:39",
+                                    "powerPlayTimeOnIce": "0:00",
+                                    "shortHandedTimeOnIce": "0:00"
+                                }
+                            }
+                        },
+                        "ID8449573": {
+                            "person": {
+                                "id": 8449573,
+                                "fullName": "Mark Messier",
+                                "link": "/api/v1/people/8449573",
+                                "shootsCatches": "L",
+                                "rosterStatus": "Y"
+                            },
+                            "jerseyNumber": "11",
+                            "position": {
+                                "code": "C",
+                                "name": "Center",
+                                "type": "Forward",
+                                "abbreviation": "C"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "15:38",
+                                    "assists": 0,
+                                    "goals": 0,
+                                    "shots": 1,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 0,
+                                    "faceOffPct": 57.89,
+                                    "faceOffWins": 11,
+                                    "faceoffTaken": 19,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": 0,
+                                    "evenTimeOnIce": "13:29",
+                                    "powerPlayTimeOnIce": "1:01",
+                                    "shortHandedTimeOnIce": "1:08"
+                                }
+                            }
+                        },
+                        "ID8458529": {
+                            "person": {
+                                "id": 8458529,
+                                "fullName": "Alex Kovalev",
+                                "link": "/api/v1/people/8458529",
+                                "shootsCatches": "L",
+                                "rosterStatus": "N"
+                            },
+                            "jerseyNumber": "27",
+                            "position": {
+                                "code": "R",
+                                "name": "Right Wing",
+                                "type": "Forward",
+                                "abbreviation": "RW"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "19:20",
+                                    "assists": 0,
+                                    "goals": 0,
+                                    "shots": 2,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 0,
+                                    "faceOffPct": 0.0,
+                                    "faceOffWins": 0,
+                                    "faceoffTaken": 1,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": -1,
+                                    "evenTimeOnIce": "16:08",
+                                    "powerPlayTimeOnIce": "3:12",
+                                    "shortHandedTimeOnIce": "0:00"
+                                }
+                            }
+                        },
+                        "ID8470580": {
+                            "person": {
+                                "id": 8470580,
+                                "fullName": "Jed Ortmeyer",
+                                "link": "/api/v1/people/8470580",
+                                "shootsCatches": "R",
+                                "rosterStatus": "N"
+                            },
+                            "jerseyNumber": "41",
+                            "position": {
+                                "code": "R",
+                                "name": "Right Wing",
+                                "type": "Forward",
+                                "abbreviation": "RW"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "3:09",
+                                    "assists": 0,
+                                    "goals": 0,
+                                    "shots": 0,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 0,
+                                    "faceOffWins": 0,
+                                    "faceoffTaken": 0,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": 0,
+                                    "evenTimeOnIce": "2:37",
+                                    "powerPlayTimeOnIce": "0:00",
+                                    "shortHandedTimeOnIce": "0:32"
+                                }
+                            }
+                        },
+                        "ID8448769": {
+                            "person": {
+                                "id": 8448769,
+                                "fullName": "Brian Leetch",
+                                "link": "/api/v1/people/8448769",
+                                "shootsCatches": "L",
+                                "rosterStatus": "Y"
+                            },
+                            "jerseyNumber": "2",
+                            "position": {
+                                "code": "D",
+                                "name": "Defenseman",
+                                "type": "Defenseman",
+                                "abbreviation": "D"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "27:59",
+                                    "assists": 0,
+                                    "goals": 0,
+                                    "shots": 1,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 0,
+                                    "faceOffWins": 0,
+                                    "faceoffTaken": 0,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": 0,
+                                    "evenTimeOnIce": "22:46",
+                                    "powerPlayTimeOnIce": "3:15",
+                                    "shortHandedTimeOnIce": "1:58"
+                                }
+                            }
+                        },
+                        "ID8448208": {
+                            "person": {
+                                "id": 8448208,
+                                "fullName": "Jaromir Jagr",
+                                "link": "/api/v1/people/8448208",
+                                "shootsCatches": "L",
+                                "rosterStatus": "Y"
+                            },
+                            "jerseyNumber": "68",
+                            "position": {
+                                "code": "R",
+                                "name": "Right Wing",
+                                "type": "Forward",
+                                "abbreviation": "RW"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "25:34",
+                                    "assists": 1,
+                                    "goals": 2,
+                                    "shots": 4,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 0,
+                                    "faceOffWins": 0,
+                                    "faceoffTaken": 0,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": 2,
+                                    "evenTimeOnIce": "22:04",
+                                    "powerPlayTimeOnIce": "2:59",
+                                    "shortHandedTimeOnIce": "0:31"
+                                }
+                            }
+                        },
+                        "ID8462148": {
+                            "person": {
+                                "id": 8462148,
+                                "fullName": "Dale Purinton",
+                                "link": "/api/v1/people/8462148",
+                                "shootsCatches": "L",
+                                "rosterStatus": "N"
+                            },
+                            "jerseyNumber": "5",
+                            "position": {
+                                "code": "D",
+                                "name": "Defenseman",
+                                "type": "Defenseman",
+                                "abbreviation": "D"
+                            },
+                            "stats": {
+                                "skaterStats": {
+                                    "timeOnIce": "11:25",
+                                    "assists": 0,
+                                    "goals": 0,
+                                    "shots": 2,
+                                    "powerPlayGoals": 0,
+                                    "powerPlayAssists": 0,
+                                    "penaltyMinutes": 0,
+                                    "faceOffWins": 0,
+                                    "faceoffTaken": 0,
+                                    "shortHandedGoals": 0,
+                                    "shortHandedAssists": 0,
+                                    "plusMinus": 1,
+                                    "evenTimeOnIce": "11:25",
+                                    "powerPlayTimeOnIce": "0:00",
+                                    "shortHandedTimeOnIce": "0:00"
+                                }
+                            }
+                        }
+                    },
+                    "goalies": [
+                        8456137
+                    ],
+                    "skaters": [
+                        8448769,
+                        8462148,
+                        8469528,
+                        8449573,
+                        8447958,
+                        8458031,
+                        8467882,
+                        8458546,
+                        8458534,
+                        8458529,
+                        8468184,
+                        8458963,
+                        8459019,
+                        8462081,
+                        8470580,
+                        8448208,
+                        8459065,
+                        8449807,
+                        8465012,
+                        8459614
+                    ],
+                    "onIce": [],
+                    "onIcePlus": [],
+                    "scratches": [
+                        8465012,
+                        8459614
+                    ],
+                    "penaltyBox": [],
+                    "coaches": [
+                        {
+                            "person": {
+                                "fullName": "Glen Sather",
+                                "link": "/api/v1/people/null"
+                            },
+                            "position": {
+                                "code": "HC",
+                                "name": "Head Coach",
+                                "type": "Head Coach",
+                                "abbreviation": "Head Coach"
+                            }
+                        }
+                    ]
+                }
+            },
+            "officials": [
+                {
+                    "official": {
+                        "fullName": "Don VanMassenhoven",
+                        "link": "/api/v1/people/null"
+                    },
+                    "officialType": "Referee"
+                },
+                {
+                    "official": {
+                        "fullName": "Craig Spada",
+                        "link": "/api/v1/people/null"
+                    },
+                    "officialType": "Referee"
+                },
+                {
+                    "official": {
+                        "fullName": "Pierre Champoux",
+                        "link": "/api/v1/people/null"
+                    },
+                    "officialType": "Linesman"
+                },
+                {
+                    "official": {
+                        "fullName": "Brian Murphy",
+                        "link": "/api/v1/people/null"
+                    },
+                    "officialType": "Linesman"
+                }
+            ]
+        },
+        "decisions": {
+            "winner": {
+                "id": 8460806,
+                "fullName": "Dwayne Roloson",
+                "link": "/api/v1/people/8460806"
+            },
+            "loser": {
+                "id": 8456137,
+                "fullName": "Mike Dunham",
+                "link": "/api/v1/people/8456137"
+            },
+            "firstStar": {
+                "id": 8448208,
+                "fullName": "Jaromir Jagr",
+                "link": "/api/v1/people/8448208"
+            },
+            "secondStar": {
+                "id": 8458991,
+                "fullName": "Sergei Zholtok",
+                "link": "/api/v1/people/8458991"
+            },
+            "thirdStar": {
+                "id": 8447958,
+                "fullName": "Bobby Holik",
+                "link": "/api/v1/people/8447958"
+            }
+        }
+    }
+}

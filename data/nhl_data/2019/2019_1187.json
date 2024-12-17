@@ -1,0 +1,273 @@
+{
+    "copyright": "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. \u00a9 NHL 2023. All Rights Reserved.",
+    "gamePk": 2019021187,
+    "link": "/api/v1/game/2019021187/feed/live",
+    "metaData": {
+        "wait": 10,
+        "timeStamp": "20200325_160004"
+    },
+    "gameData": {
+        "game": {
+            "pk": 2019021187,
+            "season": "20192020",
+            "type": "R"
+        },
+        "datetime": {
+            "dateTime": "2020-03-26T01:30:00Z"
+        },
+        "status": {
+            "abstractGameState": "Preview",
+            "codedGameState": "9",
+            "detailedState": "Postponed",
+            "statusCode": "9",
+            "startTimeTBD": false
+        },
+        "teams": {
+            "away": {
+                "id": 24,
+                "name": "Anaheim Ducks",
+                "link": "/api/v1/teams/24",
+                "venue": {
+                    "id": 5046,
+                    "name": "Honda Center",
+                    "link": "/api/v1/venues/5046",
+                    "city": "Anaheim",
+                    "timeZone": {
+                        "id": "America/Los_Angeles",
+                        "offset": -7,
+                        "tz": "PDT"
+                    }
+                },
+                "abbreviation": "ANA",
+                "triCode": "ANA",
+                "teamName": "Ducks",
+                "locationName": "Anaheim",
+                "firstYearOfPlay": "1993",
+                "division": {
+                    "id": 15,
+                    "name": "Pacific",
+                    "nameShort": "PAC",
+                    "link": "/api/v1/divisions/15",
+                    "abbreviation": "P"
+                },
+                "conference": {
+                    "id": 5,
+                    "name": "Western",
+                    "link": "/api/v1/conferences/5"
+                },
+                "franchise": {
+                    "franchiseId": 32,
+                    "teamName": "Ducks",
+                    "link": "/api/v1/franchises/32"
+                },
+                "shortName": "Anaheim",
+                "officialSiteUrl": "http://www.anaheimducks.com/",
+                "franchiseId": 32,
+                "active": true
+            },
+            "home": {
+                "id": 20,
+                "name": "Calgary Flames",
+                "link": "/api/v1/teams/20",
+                "venue": {
+                    "id": 5075,
+                    "name": "Scotiabank Saddledome",
+                    "link": "/api/v1/venues/5075",
+                    "city": "Calgary",
+                    "timeZone": {
+                        "id": "America/Denver",
+                        "offset": -6,
+                        "tz": "MDT"
+                    }
+                },
+                "abbreviation": "CGY",
+                "triCode": "CGY",
+                "teamName": "Flames",
+                "locationName": "Calgary",
+                "firstYearOfPlay": "1980",
+                "division": {
+                    "id": 15,
+                    "name": "Pacific",
+                    "nameShort": "PAC",
+                    "link": "/api/v1/divisions/15",
+                    "abbreviation": "P"
+                },
+                "conference": {
+                    "id": 5,
+                    "name": "Western",
+                    "link": "/api/v1/conferences/5"
+                },
+                "franchise": {
+                    "franchiseId": 21,
+                    "teamName": "Flames",
+                    "link": "/api/v1/franchises/21"
+                },
+                "shortName": "Calgary",
+                "officialSiteUrl": "http://www.calgaryflames.com/",
+                "franchiseId": 21,
+                "active": true
+            }
+        },
+        "players": {},
+        "venue": {
+            "id": 5075,
+            "name": "Scotiabank Saddledome",
+            "link": "/api/v1/venues/5075"
+        }
+    },
+    "liveData": {
+        "plays": {
+            "allPlays": [],
+            "scoringPlays": [],
+            "penaltyPlays": [],
+            "playsByPeriod": []
+        },
+        "linescore": {
+            "currentPeriod": 0,
+            "periods": [],
+            "shootoutInfo": {
+                "away": {
+                    "scores": 0,
+                    "attempts": 0
+                },
+                "home": {
+                    "scores": 0,
+                    "attempts": 0
+                }
+            },
+            "teams": {
+                "home": {
+                    "team": {
+                        "id": 20,
+                        "name": "Calgary Flames",
+                        "link": "/api/v1/teams/20",
+                        "abbreviation": "CGY",
+                        "triCode": "CGY"
+                    },
+                    "goals": 0,
+                    "shotsOnGoal": 0,
+                    "goaliePulled": false,
+                    "numSkaters": 0,
+                    "powerPlay": false
+                },
+                "away": {
+                    "team": {
+                        "id": 24,
+                        "name": "Anaheim Ducks",
+                        "link": "/api/v1/teams/24",
+                        "abbreviation": "ANA",
+                        "triCode": "ANA"
+                    },
+                    "goals": 0,
+                    "shotsOnGoal": 0,
+                    "goaliePulled": false,
+                    "numSkaters": 0,
+                    "powerPlay": false
+                }
+            },
+            "powerPlayStrength": "Even",
+            "hasShootout": false,
+            "intermissionInfo": {
+                "intermissionTimeRemaining": 0,
+                "intermissionTimeElapsed": 0,
+                "inIntermission": false
+            }
+        },
+        "boxscore": {
+            "teams": {
+                "away": {
+                    "team": {
+                        "id": 24,
+                        "name": "Anaheim Ducks",
+                        "link": "/api/v1/teams/24",
+                        "abbreviation": "ANA",
+                        "triCode": "ANA"
+                    },
+                    "teamStats": {
+                        "teamSkaterStats": {
+                            "goals": 0,
+                            "pim": 0,
+                            "shots": 0,
+                            "powerPlayPercentage": "0.0",
+                            "powerPlayGoals": 0.0,
+                            "powerPlayOpportunities": 0.0,
+                            "faceOffWinPercentage": "0.0",
+                            "blocked": 0,
+                            "takeaways": 0,
+                            "giveaways": 0,
+                            "hits": 0
+                        }
+                    },
+                    "players": {},
+                    "goalies": [],
+                    "skaters": [],
+                    "onIce": [],
+                    "onIcePlus": [],
+                    "scratches": [],
+                    "penaltyBox": [],
+                    "coaches": [
+                        {
+                            "person": {
+                                "fullName": "Dallas Eakins",
+                                "link": "/api/v1/people/null"
+                            },
+                            "position": {
+                                "code": "HC",
+                                "name": "Head Coach",
+                                "type": "Head Coach",
+                                "abbreviation": "Head Coach"
+                            }
+                        }
+                    ]
+                },
+                "home": {
+                    "team": {
+                        "id": 20,
+                        "name": "Calgary Flames",
+                        "link": "/api/v1/teams/20",
+                        "abbreviation": "CGY",
+                        "triCode": "CGY"
+                    },
+                    "teamStats": {
+                        "teamSkaterStats": {
+                            "goals": 0,
+                            "pim": 0,
+                            "shots": 0,
+                            "powerPlayPercentage": "0.0",
+                            "powerPlayGoals": 0.0,
+                            "powerPlayOpportunities": 0.0,
+                            "faceOffWinPercentage": "0.0",
+                            "blocked": 0,
+                            "takeaways": 0,
+                            "giveaways": 0,
+                            "hits": 0
+                        }
+                    },
+                    "players": {},
+                    "goalies": [],
+                    "skaters": [],
+                    "onIce": [],
+                    "onIcePlus": [],
+                    "scratches": [],
+                    "penaltyBox": [],
+                    "coaches": [
+                        {
+                            "person": {
+                                "fullName": "Geoff Ward",
+                                "link": "/api/v1/people/null"
+                            },
+                            "position": {
+                                "code": "HC",
+                                "name": "Head Coach",
+                                "type": "Head Coach",
+                                "abbreviation": "Head Coach"
+                            }
+                        }
+                    ]
+                }
+            },
+            "officials": []
+        },
+        "decisions": {}
+    }
+}
